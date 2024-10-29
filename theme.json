@@ -30,6 +30,15 @@
 		"useRootPaddingAwareAlignments": true
 	},
 	"styles": {
+		"spacing": {
+			"blockGap": "var(--wp--preset--spacing--50)",
+			"padding": {
+				"bottom": "0px",
+				"left": "var(--wp--preset--spacing--60)",
+				"right": "var(--wp--preset--spacing--60)",
+				"top": "0px"
+			}
+		},
 		"typography": {
 			"fontFamily": "var(--wp--preset--font-family--system-font)"
 		}
