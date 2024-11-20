@@ -1,0 +1,61 @@
+{
+    "version": 3,
+	"title": "Retro Glow - Dark",
+    "settings": {
+        "color": {
+            "palette": [
+                {
+                    "name": "Neon Black",
+                    "slug": "base",
+                    "color": "#000000"
+                },
+                {
+                    "name": "Glow Onyx",
+                    "slug": "base-midtone",
+                    "color": "#121212"
+                },
+                {
+                    "name": "Electric Silver",
+                    "slug": "contrast-midtone",
+                    "color": "#E4E4E4"
+                },
+                {
+                    "name": "Pure White",
+                    "slug": "contrast",
+                    "color": "#FFFFFF"
+                },
+                {
+                    "name": "Lavender Glow",
+                    "slug": "accent-1",
+                    "color": "#B8B3EE"
+                },
+                {
+                    "name": "Sky Beam",
+                    "slug": "accent-2",
+                    "color": "#A9ACF6"
+                },
+                {
+                    "name": "Electric Blue",
+                    "slug": "accent-3",
+                    "color": "#62A2F2"
+                },
+                {
+                    "name": "Orange Flash",
+                    "slug": "accent-4",
+                    "color": "#FF7835"
+                },
+                {
+                    "name": "Retro Amber",
+                    "slug": "accent-5",
+                    "color": "#FFAA55"
+                },
+                {
+                    "name": "Lemon Burst",
+                    "slug": "accent-6",
+                    "color": "#FFE27F"
+                }
+            ]
+        }
+    },
+    "styles": {}
+}

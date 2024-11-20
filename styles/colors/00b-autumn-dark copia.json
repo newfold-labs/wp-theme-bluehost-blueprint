@@ -1,0 +1,61 @@
+{
+	"version": 3,
+	"title": "Autumn - Dark",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"name": "Deep Night",
+					"slug": "base",
+					"color": "#121212"
+				},
+				{
+					"name": "Shadow Gray",
+					"slug": "base-midtone",
+					"color": "#1E1E1E"
+				},
+				{
+					"name": "Soft Mist",
+					"slug": "contrast-midtone",
+					"color": "#E0E0E0"
+				},
+				{
+					"name": "Moonlight",
+					"slug": "contrast",
+					"color": "#FFFFFF"
+				},
+				{
+					"name": "Evergreen",
+					"slug": "accent-1",
+					"color": "#94A189"
+				},
+				{
+					"name": "Harvest Wheat",
+					"slug": "accent-2",
+					"color": "#C4C8A1"
+				},
+				{
+					"name": "Autumn Leaf Brown",
+					"slug": "accent-3",
+					"color": "#5C5A46"
+				},
+				{
+					"name": "Burnt Rose",
+					"slug": "accent-4",
+					"color": "#D98B7F"
+				},
+				{
+					"name": "Golden Ember",
+					"slug": "accent-5",
+					"color": "#E8B482"
+				},
+				{
+					"name": "Woodland Bark",
+					"slug": "accent-6",
+					"color": "#524C3A"
+				}
+			]
+		}
+	},
+	"styles": {}
+}

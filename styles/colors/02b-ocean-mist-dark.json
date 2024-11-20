@@ -1,0 +1,61 @@
+{
+    "version": 3,
+	"title": "Ocean Mist - Dark",
+    "settings": {
+        "color": {
+            "palette": [
+                {
+                    "name": "Deep Ocean",
+                    "slug": "base",
+                    "color": "#1A1A1A"
+                },
+                {
+                    "name": "Charcoal Depths",
+                    "slug": "base-midtone",
+                    "color": "#292929"
+                },
+                {
+                    "name": "Silver Spray",
+                    "slug": "contrast-midtone",
+                    "color": "#C8C8C8"
+                },
+                {
+                    "name": "White Foam",
+                    "slug": "contrast",
+                    "color": "#FFFFFF"
+                },
+                {
+                    "name": "Midnight Blue",
+                    "slug": "accent-1",
+                    "color": "#0D2B3C"
+                },
+                {
+                    "name": "Harbor Blue",
+                    "slug": "accent-2",
+                    "color": "#244B68"
+                },
+                {
+                    "name": "Sea Breeze",
+                    "slug": "accent-3",
+                    "color": "#5C91AD"
+                },
+                {
+                    "name": "Teal Currents",
+                    "slug": "accent-4",
+                    "color": "#18434E"
+                },
+                {
+                    "name": "Aqua Wave",
+                    "slug": "accent-5",
+                    "color": "#237B94"
+                },
+                {
+                    "name": "Misty Aqua",
+                    "slug": "accent-6",
+                    "color": "#A6CAD1"
+                }
+            ]
+        }
+    },
+    "styles": {}
+}

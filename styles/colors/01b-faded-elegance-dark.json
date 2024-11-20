@@ -1,0 +1,61 @@
+{
+	"version": 3,
+	"title": "Faded Elegance - Dark",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"name": "Midnight Black",
+					"slug": "base",
+					"color": "#1A1A1A"
+				},
+				{
+					"name": "Charcoal Gray",
+					"slug": "base-midtone",
+					"color": "#292929"
+				},
+				{
+					"name": "Soft Silver",
+					"slug": "contrast-midtone",
+					"color": "#C8C8C8"
+				},
+				{
+					"name": "Pure White",
+					"slug": "contrast",
+					"color": "#FFFFFF"
+				},
+				{
+					"name": "Pinewood",
+					"slug": "accent-1",
+					"color": "#333C3D"
+				},
+				{
+					"name": "Moss Green",
+					"slug": "accent-2",
+					"color": "#607462"
+				},
+				{
+					"name": "Weathered Sand",
+					"slug": "accent-3",
+					"color": "#9D9A8C"
+				},
+				{
+					"name": "Dusky Lavender",
+					"slug": "accent-4",
+					"color": "#5B545B"
+				},
+				{
+					"name": "Blushed Rose",
+					"slug": "accent-5",
+					"color": "#A76A78"
+				},
+				{
+					"name": "Antique Pearl",
+					"slug": "accent-6",
+					"color": "#BCA895"
+				}
+				]
+		}
+	},
+	"styles": {}
+}

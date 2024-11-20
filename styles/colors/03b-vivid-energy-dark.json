@@ -1,0 +1,61 @@
+{
+    "version": 3,
+	"title": "Vivid Energy - Dark",
+    "settings": {
+        "color": {
+            "palette": [
+                {
+                    "name": "Midnight Black",
+                    "slug": "base",
+                    "color": "#1A1A1A"
+                },
+                {
+                    "name": "Charcoal Glow",
+                    "slug": "base-midtone",
+                    "color": "#292929"
+                },
+                {
+                    "name": "Silken Silver",
+                    "slug": "contrast-midtone",
+                    "color": "#C8C8C8"
+                },
+                {
+                    "name": "Radiant White",
+                    "slug": "contrast",
+                    "color": "#FFFFFF"
+                },
+                {
+                    "name": "Crimson Spark",
+                    "slug": "accent-1",
+                    "color": "#9B1C2E"
+                },
+                {
+                    "name": "Fiery Ember",
+                    "slug": "accent-2",
+                    "color": "#B34629"
+                },
+                {
+                    "name": "Golden Flame",
+                    "slug": "accent-3",
+                    "color": "#B38B26"
+                },
+                {
+                    "name": "Dusky Indigo",
+                    "slug": "accent-4",
+                    "color": "#1E1B34"
+                },
+                {
+                    "name": "Emerald Depths",
+                    "slug": "accent-5",
+                    "color": "#0E4E4B"
+                },
+                {
+                    "name": "Lime Energy",
+                    "slug": "accent-6",
+                    "color": "#99AB4D"
+                }
+            ]
+        }
+    },
+    "styles": {}
+}

@@ -1,0 +1,61 @@
+{
+    "version": 3,
+	"title": "Soft Terracotta - Dark",
+    "settings": {
+        "color": {
+            "palette": [
+                {
+                    "name": "Terracotta Black",
+                    "slug": "base",
+                    "color": "#000000"
+                },
+                {
+                    "name": "Obsidian Glow",
+                    "slug": "base-midtone",
+                    "color": "#121212"
+                },
+                {
+                    "name": "Soft Pearl",
+                    "slug": "contrast-midtone",
+                    "color": "#E4E4E4"
+                },
+                {
+                    "name": "Ivory Light",
+                    "slug": "contrast",
+                    "color": "#FFFFFF"
+                },
+                {
+                    "name": "Aqua Mist",
+                    "slug": "accent-1",
+                    "color": "#9AC3D3"
+                },
+                {
+                    "name": "Cloudy Sky",
+                    "slug": "accent-2",
+                    "color": "#BCC7D1"
+                },
+                {
+                    "name": "Ashwood Gray",
+                    "slug": "accent-3",
+                    "color": "#71686D"
+                },
+                {
+                    "name": "Rosewood",
+                    "slug": "accent-4",
+                    "color": "#AD737E"
+                },
+                {
+                    "name": "Blush Clay",
+                    "slug": "accent-5",
+                    "color": "#EB9C87"
+                },
+                {
+                    "name": "Sunbaked Sand",
+                    "slug": "accent-6",
+                    "color": "#F2D3C5"
+                }
+            ]
+        }
+    },
+    "styles": {}
+}
