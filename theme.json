@@ -6,14 +6,6 @@
 			"wideSize": "1340px"
 		},
 		"spacing": {
-			"units": [
-				"%",
-				"px",
-				"em",
-				"rem",
-				"vh",
-				"vw"
-			],
 			"defaultSpacingSizes": false,
 			"spacingSizes": [
 				{
@@ -51,8 +43,15 @@
 					"size": "clamp(4rem, calc(3.25rem + 2.44vw), 7rem)",
 					"slug": "80"
 				}
+			],
+			"units": [
+				"%",
+				"px",
+				"em",
+				"rem",
+				"vh",
+				"vw"
 			]
-
 		},
 		"typography": {
 			"dropCap": true,
