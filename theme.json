@@ -70,11 +70,11 @@
 	},
 	"styles": {
 		"spacing": {
-			"blockGap": "var(--wp--preset--spacing--50)",
+			"blockGap": "var(--wp--preset--spacing--40)",
 			"padding": {
 				"bottom": "0px",
-				"left": "var(--wp--preset--spacing--60)",
-				"right": "var(--wp--preset--spacing--60)",
+				"left": "var(--wp--preset--spacing--50)",
+				"right": "var(--wp--preset--spacing--50)",
 				"top": "0px"
 			}
 		},
