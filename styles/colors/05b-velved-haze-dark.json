@@ -1,0 +1,61 @@
+{
+    "version": 3,
+	"title": "Velved Haze - Dark",
+    "settings": {
+        "color": {
+            "palette": [
+                {
+                    "name": "Velvet Black",
+                    "slug": "base",
+                    "color": "#000000"
+                },
+                {
+                    "name": "Deep Onyx",
+                    "slug": "base-midtone",
+                    "color": "#121212"
+                },
+                {
+                    "name": "Soft Glow",
+                    "slug": "contrast-midtone",
+                    "color": "#E4E4E4"
+                },
+                {
+                    "name": "Pure White",
+                    "slug": "contrast",
+                    "color": "#FFFFFF"
+                },
+                {
+                    "name": "Lavender Mist",
+                    "slug": "accent-1",
+                    "color": "#D1D2F1"
+                },
+                {
+                    "name": "Dusky Lilac",
+                    "slug": "accent-2",
+                    "color": "#B1B3CF"
+                },
+                {
+                    "name": "Smoky Slate",
+                    "slug": "accent-3",
+                    "color": "#515363"
+                },
+                {
+                    "name": "Plum Veil",
+                    "slug": "accent-4",
+                    "color": "#6C5C65"
+                },
+                {
+                    "name": "Rosewood Blush",
+                    "slug": "accent-5",
+                    "color": "#76585C"
+                },
+                {
+                    "name": "Earthen Umber",
+                    "slug": "accent-6",
+                    "color": "#4B3C32"
+                }
+            ]
+        }
+    },
+    "styles": {}
+}

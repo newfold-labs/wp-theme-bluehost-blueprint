@@ -1,0 +1,61 @@
+{
+    "version": 3,
+	"title": "Soft Terracotta",
+    "settings": {
+        "color": {
+            "palette": [
+                {
+                    "name": "Base",
+                    "slug": "base",
+                    "color": "#ffffff"
+                },
+                {
+                    "name": "Contrast",
+                    "slug": "contrast",
+                    "color": "#000000"
+                },
+                {
+                    "name": "Slate Blue",
+                    "slug": "accent-1",
+                    "color": "#375B6D"
+                },
+                {
+                    "name": "Dusty Steel",
+                    "slug": "accent-2",
+                    "color": "#9FABB7"
+                },
+                {
+                    "name": "Muted Mauve",
+                    "slug": "accent-3",
+                    "color": "#DBD3D8"
+                },
+                {
+                    "name": "Plumwood",
+                    "slug": "accent-4",
+                    "color": "#714955"
+                },
+                {
+                    "name": "Terracotta Blush",
+                    "slug": "accent-5",
+                    "color": "#D77A61"
+                },
+                {
+                    "name": "Soft Clay",
+                    "slug": "accent-6",
+                    "color": "#D8B4A0"
+                },
+                {
+                    "name": "Base Midtone",
+                    "slug": "base-midtone",
+                    "color": "#f4f4f4"
+                },
+                {
+                    "name": "Contrast Midtone",
+                    "slug": "contrast-midtone",
+                    "color": "#323232"
+                }
+            ]
+        }
+    },
+    "styles": {}
+}

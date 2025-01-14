@@ -1,0 +1,61 @@
+{
+    "version": 3,
+	"title": "Forest Grove",
+    "settings": {
+        "color": {
+            "palette": [
+                {
+                    "name": "Base",
+                    "slug": "base",
+                    "color": "#ffffff"
+                },
+                {
+                    "name": "Contrast",
+                    "slug": "contrast",
+                    "color": "#000000"
+                },
+                {
+                    "name": "Dark Green",
+                    "slug": "accent-1",
+                    "color": "#132A13"
+                },
+                {
+                    "name": "Hunter Green",
+                    "slug": "accent-2",
+                    "color": "#31572C"
+                },
+                {
+                    "name": "Fern Green",
+                    "slug": "accent-3",
+                    "color": "#4F772D"
+                },
+                {
+                    "name": "Moss Green",
+                    "slug": "accent-4",
+                    "color": "#90A955"
+                },
+                {
+                    "name": "Sage",
+                    "slug": "accent-5",
+                    "color": "#CAD593"
+                },
+                {
+                    "name": "Mindaro",
+                    "slug": "accent-6",
+                    "color": "#ECF39E"
+                },
+                {
+                    "name": "Base Midtone",
+                    "slug": "base-midtone",
+                    "color": "#f4f4f4"
+                },
+                {
+                    "name": "Contrast Midtone",
+                    "slug": "contrast-midtone",
+                    "color": "#323232"
+                }
+            ]
+        }
+    },
+    "styles": {}
+}

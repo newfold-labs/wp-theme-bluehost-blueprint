@@ -1,0 +1,61 @@
+{
+    "version": 3,
+	"title": "Velved Haze",
+    "settings": {
+        "color": {
+            "palette": [
+                {
+                    "name": "Base",
+                    "slug": "base",
+                    "color": "#ffffff"
+                },
+                {
+                    "name": "Contrast",
+                    "slug": "contrast",
+                    "color": "#000000"
+                },
+                {
+                    "name": "Space Cadet",
+                    "slug": "accent-1",
+                    "color": "#22223B"
+                },
+                {
+                    "name": "Ultra Violet",
+                    "slug": "accent-2",
+                    "color": "#4A4E69"
+                },
+                {
+                    "name": "Cool Gray",
+                    "slug": "accent-3",
+                    "color": "#A6AAC4"
+                },
+                {
+                    "name": "Rose Quartz",
+                    "slug": "accent-4",
+                    "color": "#9A8C98"
+                },
+                {
+                    "name": "Pale Dogwood Light",
+                    "slug": "accent-5",
+                    "color": "#C9ADA7"
+                },
+                {
+                    "name": "Pale Dogwood",
+                    "slug": "accent-6",
+                    "color": "#E0C9BE"
+                },
+                {
+                    "name": "Base Midtone",
+                    "slug": "base-midtone",
+                    "color": "#f4f4f4"
+                },
+                {
+                    "name": "Contrast Midtone",
+                    "slug": "contrast-midtone",
+                    "color": "#323232"
+                }
+            ]
+        }
+    },
+    "styles": {}
+}

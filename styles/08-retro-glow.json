@@ -1,0 +1,61 @@
+{
+    "version": 3,
+	"title": "Retro Glow",
+    "settings": {
+        "color": {
+            "palette": [
+                {
+                    "name": "Base",
+                    "slug": "base",
+                    "color": "#ffffff"
+                },
+                {
+                    "name": "Contrast",
+                    "slug": "contrast",
+                    "color": "#000000"
+                },
+                {
+                    "name": "Deep Violet",
+                    "slug": "accent-1",
+                    "color": "#3D348B"
+                },
+                {
+                    "name": "Electric Indigo",
+                    "slug": "accent-2",
+                    "color": "#7678ED"
+                },
+                {
+                    "name": "Sky Blue",
+                    "slug": "accent-3",
+                    "color": "#80ADF9"
+                },
+                {
+                    "name": "Burnt Orange",
+                    "slug": "accent-4",
+                    "color": "#F35B04"
+                },
+                {
+                    "name": "Sunset Orange",
+                    "slug": "accent-5",
+                    "color": "#F18701"
+                },
+                {
+                    "name": "Golden Glow",
+                    "slug": "accent-6",
+                    "color": "#FEC92A"
+                },
+                {
+                    "name": "Base Midtone",
+                    "slug": "base-midtone",
+                    "color": "#f4f4f4"
+                },
+                {
+                    "name": "Contrast Midtone",
+                    "slug": "contrast-midtone",
+                    "color": "#323232"
+                }
+            ]
+        }
+    },
+    "styles": {}
+}
