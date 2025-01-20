@@ -7,7 +7,7 @@
 				{
 					"name": "Midnight Black",
 					"slug": "base",
-					"color": "#1A1A1A"
+					"color": "#181818"
 				},
 				{
 					"name": "Charcoal Gray",
@@ -27,32 +27,32 @@
 				{
 					"name": "Pinewood",
 					"slug": "accent-1",
-					"color": "#333C3D"
+					"color": "#B8C4C6"
 				},
 				{
 					"name": "Moss Green",
 					"slug": "accent-2",
-					"color": "#607462"
+					"color": "#5E785E"
 				},
 				{
 					"name": "Weathered Sand",
 					"slug": "accent-3",
-					"color": "#9D9A8C"
+					"color": "#3B3934"
 				},
 				{
 					"name": "Dusky Lavender",
 					"slug": "accent-4",
-					"color": "#5B545B"
+					"color": "#C8C0C8"
 				},
 				{
 					"name": "Blushed Rose",
 					"slug": "accent-5",
-					"color": "#A76A78"
+					"color": "#82383F"
 				},
 				{
 					"name": "Antique Pearl",
 					"slug": "accent-6",
-					"color": "#BCA895"
+					"color": "#523F37"
 				}
 				]
 		}
