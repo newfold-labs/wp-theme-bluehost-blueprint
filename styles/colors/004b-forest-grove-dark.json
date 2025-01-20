@@ -12,47 +12,47 @@
                 {
                     "name": "Charcoal Bark",
                     "slug": "base-midtone",
-                    "color": "#292929"
+                    "color": "#2A2A2A"
                 },
                 {
                     "name": "Silver Canopy",
                     "slug": "contrast-midtone",
-                    "color": "#C8C8C8"
+                    "color": "#E3E3E3"
                 },
                 {
                     "name": "Morning Light",
                     "slug": "contrast",
-                    "color": "#FFFFFF"
+                    "color": "#F5F5F5"
                 },
                 {
                     "name": "Berry Bloom",
                     "slug": "accent-1",
-                    "color": "#9B1C2E"
+                    "color": "#4A6B4A"
                 },
                 {
                     "name": "Maple Glow",
                     "slug": "accent-2",
-                    "color": "#B34629"
+                    "color": "#57835A"
                 },
                 {
                     "name": "Golden Oak",
                     "slug": "accent-3",
-                    "color": "#B38B26"
+                    "color": "#81A563"
                 },
                 {
                     "name": "Twilight Grove",
                     "slug": "accent-4",
-                    "color": "#1E1B34"
+                    "color": "#B9CF84"
                 },
                 {
                     "name": "Pine Creek",
                     "slug": "accent-5",
-                    "color": "#0E4E4B"
+                    "color": "#DDE3B8"
                 },
                 {
                     "name": "Mossy Meadow",
                     "slug": "accent-6",
-                    "color": "#99AB4D"
+                    "color": "#F4F9C3"
                 }
             ]
         }
