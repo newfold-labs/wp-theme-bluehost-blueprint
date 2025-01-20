@@ -7,17 +7,17 @@
                 {
                     "name": "Midnight Black",
                     "slug": "base",
-                    "color": "#1A1A1A"
+                    "color": "#181818"
                 },
                 {
                     "name": "Charcoal Glow",
                     "slug": "base-midtone",
-                    "color": "#292929"
+                    "color": "#1C1C1C"
                 },
                 {
                     "name": "Silken Silver",
                     "slug": "contrast-midtone",
-                    "color": "#C8C8C8"
+                    "color": "#E6E6E6"
                 },
                 {
                     "name": "Radiant White",
@@ -27,32 +27,32 @@
                 {
                     "name": "Crimson Spark",
                     "slug": "accent-1",
-                    "color": "#9B1C2E"
+                    "color": "#E96878"
                 },
                 {
                     "name": "Fiery Ember",
                     "slug": "accent-2",
-                    "color": "#B34629"
+                    "color": "#FF9B70"
                 },
                 {
                     "name": "Golden Flame",
                     "slug": "accent-3",
-                    "color": "#B38B26"
+                    "color": "#D49B3B"
                 },
                 {
                     "name": "Dusky Indigo",
                     "slug": "accent-4",
-                    "color": "#1E1B34"
+                    "color": "#9E94C2"
                 },
                 {
                     "name": "Emerald Depths",
                     "slug": "accent-5",
-                    "color": "#0E4E4B"
+                    "color": "#5FD3C3"
                 },
                 {
                     "name": "Lime Energy",
                     "slug": "accent-6",
-                    "color": "#99AB4D"
+                    "color": "#697A2D"
                 }
             ]
         }
