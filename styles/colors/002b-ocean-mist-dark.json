@@ -7,17 +7,17 @@
                 {
                     "name": "Deep Ocean",
                     "slug": "base",
-                    "color": "#1A1A1A"
+                    "color": "#181818"
                 },
                 {
                     "name": "Charcoal Depths",
                     "slug": "base-midtone",
-                    "color": "#292929"
+                    "color": "#1C1C1C"
                 },
                 {
                     "name": "Silver Spray",
                     "slug": "contrast-midtone",
-                    "color": "#C8C8C8"
+                    "color": "#DADADA"
                 },
                 {
                     "name": "White Foam",
@@ -27,32 +27,32 @@
                 {
                     "name": "Midnight Blue",
                     "slug": "accent-1",
-                    "color": "#0D2B3C"
+                    "color": "#97C6DF"
                 },
                 {
                     "name": "Harbor Blue",
                     "slug": "accent-2",
-                    "color": "#244B68"
+                    "color": "#A1D0F2"
                 },
                 {
                     "name": "Sea Breeze",
                     "slug": "accent-3",
-                    "color": "#5C91AD"
+                    "color": "#2C4F64"
                 },
                 {
                     "name": "Teal Currents",
                     "slug": "accent-4",
-                    "color": "#18434E"
+                    "color": "#A3C4D0"
                 },
                 {
                     "name": "Aqua Wave",
                     "slug": "accent-5",
-                    "color": "#237B94"
+                    "color": "#9DD8EC"
                 },
                 {
                     "name": "Misty Aqua",
                     "slug": "accent-6",
-                    "color": "#A6CAD1"
+                    "color": "#2E3D42"
                 }
             ]
         }
