@@ -146,6 +146,12 @@
 				"color": {
 					"background": "var(--wp--preset--color--accent-1)",
 					"text": "var(--wp--preset--color--base)"
+				},
+				":hover": {
+					"color": {
+						"background": "color-mix( in lab, currentColor, var(--wp--preset--color--accent-1) 70% )",
+						"text": "var(--wp--preset--color--base)"
+					}
 				}
 			},
 			"heading": {
@@ -156,7 +162,7 @@
 			"link": {
 				":hover": {
 					"color": {
-						"text": "var(--wp--preset--color--accent-2)"
+						"text": "color-mix( in lab, currentColor, var(--wp--preset--color--accent-1) 70% )"
 					}
 				},
 				"color": {
