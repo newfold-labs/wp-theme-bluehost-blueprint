@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: archive-product
- * Slug: nextgen-theme/archive-product
+ * Slug: bh-studio/archive-product
  * Inserter: no
  */
 ?>
@@ -43,12 +43,12 @@
 <!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"center","flexWrap":"wrap"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"fontSize":"medium"} -->
 <p class="has-medium-font-size"><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element */ 
-echo sprintf( esc_html__( '%1$sNo results found%2$s', 'nextgen-theme' ), '<strong>', '</strong>' ); ?></p>
+echo sprintf( esc_html__( '%1$sNo results found%2$s', 'bh-studio' ), '<strong>', '</strong>' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 <p><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element, 3. is the start of a 'a' HTML element, 4. is the end of a 'a' HTML element */ 
-echo sprintf( esc_html__( 'You can try %1$sclearing any filters%2$s or head to our %3$sstore\'s home%4$s', 'nextgen-theme' ), '<a class="wc-link-clear-any-filters" href="' . esc_url( '#' ) . '">', '</a>', '<a class="wc-link-stores-home" href="' . esc_url( '#' ) . '">', '</a>' ); ?></p>
+echo sprintf( esc_html__( 'You can try %1$sclearing any filters%2$s or head to our %3$sstore\'s home%4$s', 'bh-studio' ), '<a class="wc-link-clear-any-filters" href="' . esc_url( '#' ) . '">', '</a>', '<a class="wc-link-stores-home" href="' . esc_url( '#' ) . '">', '</a>' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 <!-- /wp:woocommerce/product-collection-no-results --></div>

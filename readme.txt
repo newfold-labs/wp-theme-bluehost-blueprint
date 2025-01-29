@@ -1,4 +1,4 @@
-== NextGen theme ==
+== Bluehost Studio ==
 
 Contributors: Newfold Digital
 Requires at least: 6.6
@@ -21,8 +21,8 @@ A basic Block Theme created by Newfold Digital
 
 == Copyright ==
 
-NextGen theme WordPress Theme, (C) 2024 Newfold Digital
-NextGen theme is distributed under the terms of the GNU GPL.
+Bluehost Studio WordPress Theme, (C) 2025 Newfold Digital
+Bluehost Studio is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by

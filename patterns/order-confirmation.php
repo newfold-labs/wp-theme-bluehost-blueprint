@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: order-confirmation
- * Slug: nextgen-theme/order-confirmation
+ * Slug: bh-studio/order-confirmation
  * Inserter: no
  */
 ?>
@@ -14,7 +14,7 @@
 
 <!-- wp:woocommerce/order-confirmation-totals-wrapper -->
 <!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"24px"}}} -->
-<h3 class="wp-block-heading" style="font-size:24px"><?php esc_html_e('Order details', 'nextgen-theme');?></h3>
+<h3 class="wp-block-heading" style="font-size:24px"><?php esc_html_e('Order details', 'bh-studio');?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:woocommerce/order-confirmation-totals {"lock":{"remove":true}} /-->
@@ -22,7 +22,7 @@
 
 <!-- wp:woocommerce/order-confirmation-downloads-wrapper -->
 <!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"24px"}}} -->
-<h3 class="wp-block-heading" style="font-size:24px"><?php esc_html_e('Downloads', 'nextgen-theme');?></h3>
+<h3 class="wp-block-heading" style="font-size:24px"><?php esc_html_e('Downloads', 'bh-studio');?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:woocommerce/order-confirmation-downloads {"lock":{"remove":true}} /-->
@@ -32,7 +32,7 @@
 <div class="wp-block-columns wc-block-order-confirmation-address-wrapper"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:woocommerce/order-confirmation-shipping-wrapper {"align":"wide"} -->
 <!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"24px"}}} -->
-<h3 class="wp-block-heading" style="font-size:24px"><?php esc_html_e('Shipping address', 'nextgen-theme');?></h3>
+<h3 class="wp-block-heading" style="font-size:24px"><?php esc_html_e('Shipping address', 'bh-studio');?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:woocommerce/order-confirmation-shipping-address {"lock":{"remove":true}} /-->
@@ -42,7 +42,7 @@
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:woocommerce/order-confirmation-billing-wrapper {"align":"wide"} -->
 <!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"24px"}}} -->
-<h3 class="wp-block-heading" style="font-size:24px"><?php esc_html_e('Billing address', 'nextgen-theme');?></h3>
+<h3 class="wp-block-heading" style="font-size:24px"><?php esc_html_e('Billing address', 'bh-studio');?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:woocommerce/order-confirmation-billing-address {"lock":{"remove":true}} /-->
@@ -52,7 +52,7 @@
 
 <!-- wp:woocommerce/order-confirmation-additional-fields-wrapper {"align":"wide"} -->
 <!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"24px"}}} -->
-<h3 class="wp-block-heading" style="font-size:24px"><?php esc_html_e('Additional information', 'nextgen-theme');?></h3>
+<h3 class="wp-block-heading" style="font-size:24px"><?php esc_html_e('Additional information', 'bh-studio');?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:woocommerce/order-confirmation-additional-fields /-->

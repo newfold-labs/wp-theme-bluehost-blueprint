@@ -1,0 +1,54 @@
+<?php
+/**
+ * Assets.php
+ *
+ * Registers and enqueues all necessary styles and scripts.
+ *
+ * @package Bluehost\Studio
+ * @author  Bluehost
+ * @since   1.0.0
+ */
+
+namespace Bluehost\Studio;
+
+/**
+ * Class Assets
+ *
+ * Registers and enqueues all necessary styles and scripts.
+ *
+ * @since 1.0.0
+ */
+class Assets {
+	/**
+	 * Initializes the class.
+	 *
+	 * @since 1.0.0
+	 */
+	public static function init() {
+		// Registers styles and scripts.
+		add_action( 'wp_enqueue_scripts', array( __CLASS__, 'enqueue_frontend_assets' ) );
+	}
+
+	/**
+	 * Enqueue frontend CSS and JS
+	 *
+	 * Enqueues all stylesheets and scripts required for frontend functionality.
+	 *
+	 * @since 1.0.0
+	 */
+	public static function enqueue_frontend_assets() {
+		$theme_version = wp_get_theme()->get( 'Version' );
+
+		/**
+		 * Enqueues main stylesheet.
+		 *
+		 * @since 1.0.0
+		 */
+		wp_enqueue_style(
+			'bh-studio-style',
+			get_parent_theme_file_uri( 'style.css' ),
+			array(),
+			$theme_version
+		);
+	}
+}
