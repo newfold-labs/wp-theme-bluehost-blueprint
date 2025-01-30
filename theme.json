@@ -1,189 +1,189 @@
 {
-	"settings": {
-		"appearanceTools": true,
-		"custom": {
-			"spacing--10": "clamp(0.4375rem, calc(0.375rem + 0.37vw), 0.625rem)"
-		},
-		"color": {
-			"defaultDuotone": false,
-			"defaultGradients": false,
-			"defaultPalette": false,
-			"palette": [
-				{
-					"color": "#ffffff",
-					"name": "Base",
-					"slug": "base"
-				},
-				{
-					"color": "#000000",
-					"name": "Contrast",
-					"slug": "contrast"
-				},
-				{
-					"color": "#283618",
-					"name": "Forest Canopy",
-					"slug": "accent-1"
-				},
-				{
-					"color": "#606C38",
-					"name": "Olive Grove",
-					"slug": "accent-2"
-				},
-				{
-					"color": "#B5B08A",
-					"name": "Sandstone Beige",
-					"slug": "accent-3"
-				},
-				{
-					"color": "#823933",
-					"name": "Cranberry Clay",
-					"slug": "accent-4"
-				},
-				{
-					"color": "#BC6C25",
-					"name": "Amber Spice",
-					"slug": "accent-5"
-				},
-				{
-					"color": "#F3EAAE",
-					"name": "Golden Harvest",
-					"slug": "accent-6"
-				},
-				{
-					"color": "#f0f0f0",
-					"name": "Base Midtone",
-					"slug": "base-midtone"
-				},
-				{
-					"color": "#3d3d3d",
-					"name": "Contrast Midtone",
-					"slug": "contrast-midtone"
-				}
-			]
-		},
-		"layout": {
-			"contentSize": "1200px",
-			"wideSize": "1340px"
-		},
-		"spacing": {
-			"defaultSpacingSizes": false,
-			"spacingSizes": [
-				{
-					"name": "X-Small",
-					"size": "clamp(0.625rem, calc(0.5rem + 0.37vw), 0.875rem)",
-					"slug": "20"
-				},
-				{
-					"name": "Small",
-					"size": "clamp(0.9375rem, calc(0.8125rem + 0.37vw), 1.25rem)",
-					"slug": "30"
-				},
-				{
-					"name": "Regular",
-					"size": "clamp(1.25rem, calc(1.125rem + 0.61vw), 1.75rem)",
-					"slug": "40"
-				},
-				{
-					"name": "Large",
-					"size": "clamp(1.75rem, calc(1.5rem + 0.61vw), 2.5rem)",
-					"slug": "50"
-				},
-				{
-					"name": "X-Large",
-					"size": "clamp(2.1875rem, calc(1.9375rem + 1.14vw), 3.5rem)",
-					"slug": "60"
-				},
-				{
-					"name": "2X-Large",
-					"size": "clamp(3rem, calc(2.5rem + 1.83vw), 5rem)",
-					"slug": "70"
-				},
-				{
-					"name": "3X-Large",
-					"size": "clamp(4rem, calc(3.25rem + 2.44vw), 7rem)",
-					"slug": "80"
-				}
-			],
-			"units": [
-				"%",
-				"px",
-				"em",
-				"rem",
-				"vh",
-				"vw"
-			]
-		},
-		"typography": {
-			"dropCap": true,
-			"fontFamilies": [
-				{
-					"fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
-					"name": "System Font",
-					"slug": "system-font"
-				}
-			],
-			"textColumns": true,
-			"writingMode": true
-		},
-		"useRootPaddingAwareAlignments": true
-	},
-	"styles": {
-		"spacing": {
-			"blockGap": "var(--wp--preset--spacing--40)",
-			"padding": {
-				"bottom": "0px",
-				"left": "var(--wp--preset--spacing--50)",
-				"right": "var(--wp--preset--spacing--50)",
-				"top": "0px"
-			}
-		},
-		"color": {
-			"background": "var(--wp--preset--color--base)",
-			"text": "var(--wp--preset--color--contrast)"
-		},
-		"elements": {
-			"button": {
-				"color": {
-					"background": "var(--wp--preset--color--accent-1)",
-					"text": "var(--wp--preset--color--base)"
-				},
-				":hover": {
-					"color": {
-						"background": "color-mix( in lab, currentColor, var(--wp--preset--color--accent-1) 70% )",
-						"text": "var(--wp--preset--color--base)"
-					}
-				}
-			},
-			"heading": {
-				"color": {
-					"text": "var(--wp--preset--color--accent-1)"
-				}
-			},
-			"link": {
-				":hover": {
-					"color": {
-						"text": "color-mix( in lab, currentColor, var(--wp--preset--color--accent-1) 70% )"
-					}
-				},
-				"color": {
-					"text": "var(--wp--preset--color--accent-1)"
-				}
-			}
-		},
-		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--system-font)"
-		}
-	},
-	"templateParts": [
-		{
-			"area": "header",
-			"name": "header"
-		},
-		{
-			"area": "footer",
-			"name": "footer"
-		}
-	],
-	"version": 3,
-	"$schema": "https://schemas.wp.org/trunk/theme.json"
+    "settings": {
+        "color": {
+            "defaultDuotone": false,
+            "defaultGradients": false,
+            "defaultPalette": false,
+            "palette": [
+                {
+                    "color": "#ffffff",
+                    "name": "Base",
+                    "slug": "base"
+                },
+                {
+                    "color": "#000000",
+                    "name": "Contrast",
+                    "slug": "contrast"
+                },
+                {
+                    "color": "#283618",
+                    "name": "Forest Canopy",
+                    "slug": "accent-1"
+                },
+                {
+                    "color": "#606C38",
+                    "name": "Olive Grove",
+                    "slug": "accent-2"
+                },
+                {
+                    "color": "#B5B08A",
+                    "name": "Sandstone Beige",
+                    "slug": "accent-3"
+                },
+                {
+                    "color": "#823933",
+                    "name": "Cranberry Clay",
+                    "slug": "accent-4"
+                },
+                {
+                    "color": "#BC6C25",
+                    "name": "Amber Spice",
+                    "slug": "accent-5"
+                },
+                {
+                    "color": "#F3EAAE",
+                    "name": "Golden Harvest",
+                    "slug": "accent-6"
+                },
+                {
+                    "color": "#f0f0f0",
+                    "name": "Base Midtone",
+                    "slug": "base-midtone"
+                },
+                {
+                    "color": "#3d3d3d",
+                    "name": "Contrast Midtone",
+                    "slug": "contrast-midtone"
+                }
+            ]
+        },
+        "custom": {
+            "spacing--10": "clamp(0.4375rem, calc(0.375rem + 0.37vw), 0.625rem)"
+        },
+        "layout": {
+            "contentSize": "1200px",
+            "wideSize": "1340px"
+        },
+        "spacing": {
+            "defaultSpacingSizes": false,
+            "spacingSizes": [
+                {
+                    "name": "X-Small",
+                    "size": "clamp(0.625rem, calc(0.5rem + 0.37vw), 0.875rem)",
+                    "slug": "20"
+                },
+                {
+                    "name": "Small",
+                    "size": "clamp(0.9375rem, calc(0.8125rem + 0.37vw), 1.25rem)",
+                    "slug": "30"
+                },
+                {
+                    "name": "Regular",
+                    "size": "clamp(1.25rem, calc(1.125rem + 0.61vw), 1.75rem)",
+                    "slug": "40"
+                },
+                {
+                    "name": "Large",
+                    "size": "clamp(1.75rem, calc(1.5rem + 0.61vw), 2.5rem)",
+                    "slug": "50"
+                },
+                {
+                    "name": "X-Large",
+                    "size": "clamp(2.1875rem, calc(1.9375rem + 1.14vw), 3.5rem)",
+                    "slug": "60"
+                },
+                {
+                    "name": "2X-Large",
+                    "size": "clamp(3rem, calc(2.5rem + 1.83vw), 5rem)",
+                    "slug": "70"
+                },
+                {
+                    "name": "3X-Large",
+                    "size": "clamp(4rem, calc(3.25rem + 2.44vw), 7rem)",
+                    "slug": "80"
+                }
+            ],
+            "units": [
+                "%",
+                "px",
+                "em",
+                "rem",
+                "vh",
+                "vw"
+            ]
+        },
+        "typography": {
+            "dropCap": true,
+            "fontFamilies": [
+                {
+                    "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
+                    "name": "System Font",
+                    "slug": "system-font"
+                }
+            ],
+            "textColumns": true,
+            "writingMode": true
+        },
+        "appearanceTools": true,
+        "useRootPaddingAwareAlignments": true
+    },
+    "styles": {
+        "color": {
+            "background": "var(--wp--preset--color--base)",
+            "text": "var(--wp--preset--color--contrast)"
+        },
+        "elements": {
+            "button": {
+                "color": {
+                    "background": "var(--wp--preset--color--accent-1)",
+                    "text": "var(--wp--preset--color--base)"
+                },
+                ":hover": {
+                    "color": {
+                        "background": "color-mix( in lab, currentColor, var(--wp--preset--color--accent-1) 70% )",
+                        "text": "var(--wp--preset--color--base)"
+                    }
+                }
+            },
+            "heading": {
+                "color": {
+                    "text": "var(--wp--preset--color--accent-1)"
+                }
+            },
+            "link": {
+                ":hover": {
+                    "color": {
+                        "text": "color-mix( in lab, currentColor, var(--wp--preset--color--accent-1) 70% )"
+                    }
+                },
+                "color": {
+                    "text": "var(--wp--preset--color--accent-1)"
+                }
+            }
+        },
+        "spacing": {
+            "blockGap": "var(--wp--preset--spacing--40)",
+            "padding": {
+                "bottom": "0px",
+                "left": "var(--wp--preset--spacing--50)",
+                "right": "var(--wp--preset--spacing--50)",
+                "top": "0px"
+            }
+        },
+        "typography": {
+            "fontFamily": "var(--wp--preset--font-family--system-font)"
+        }
+    },
+    "templateParts": [
+        {
+            "area": "header",
+            "name": "header"
+        },
+        {
+            "area": "footer",
+            "name": "footer"
+        }
+    ],
+    "version": 3,
+    "$schema": "https://schemas.wp.org/trunk/theme.json"
 }

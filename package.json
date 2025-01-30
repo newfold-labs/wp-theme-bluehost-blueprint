@@ -1,0 +1,20 @@
+{
+  "name": "bh-studio",
+  "version": "1.0.0",
+  "description": "A starter block theme from Bluehost",
+  "main": "merge-theme.js",
+  "scripts": {
+    "merge-theme": "node merge-theme.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/newfold-labs/wp-theme-nextgen.git"
+  },
+  "author": "Bluehost",
+  "license": "GPL-2.0-or-later",
+  "bugs": {
+    "url": "https://github.com/newfold-labs/wp-theme-nextgen/issues"
+  },
+  "homepage": "https://github.com/newfold-labs/wp-theme-nextgen#readme"
+}
+
