@@ -128,6 +128,61 @@
         "useRootPaddingAwareAlignments": true
     },
     "styles": {
+        "blocks": {
+            "core/archives": {
+                "typography": {
+                    "lineHeight": "1.5"
+                }
+            },
+            "core/calendar": {
+                "color": {
+                    "text": "var(--wp--preset--color--contrast)"
+                },
+                "elements": {
+                    "link": {
+                        ":hover": {
+                            "color": {
+                                "text": "var(--wp--preset--color--accent-1)"
+                            }
+                        },
+                        "color": {
+                            "text": "var(--wp--preset--color--contrast)"
+                        }
+                    }
+                },
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--small)",
+                    "fontStyle": "normal",
+                    "fontWeight": "500",
+                    "lineHeight": "1.8"
+                }
+            },
+            "core/latest-posts": {
+                "typography": {
+                    "lineHeight": "1.5"
+                }
+            },
+            "core/page-list": {
+                "typography": {
+                    "lineHeight": "1.5"
+                }
+            },
+            "core/paragraph": {
+                "typography": {
+                    "lineHeight": "1.5"
+                }
+            },
+            "core/verse": {
+                "typography": {
+                    "lineHeight": "1.6"
+                }
+            },
+            "woocommerce/product-categories": {
+                "typography": {
+                    "lineHeight": "1.5"
+                }
+            }
+        },
         "color": {
             "background": "var(--wp--preset--color--base)",
             "text": "var(--wp--preset--color--contrast)"
