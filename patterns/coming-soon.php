@@ -13,16 +13,16 @@
 <div style="height:0px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:heading {"textAlign":"center","level":1,"fontFamily":"cardo"} -->
-<h1 class="wp-block-heading has-text-align-center has-cardo-font-family"><?php esc_html_e('Great things are on the horizon', 'bh-studio');?></h1>
+<!-- wp:heading {"textAlign":"center","level":1} -->
+<h1 class="wp-block-heading has-text-align-center"><?php esc_html_e( 'Great things are on the horizon', 'bh-studio' ); ?></h1>
 <!-- /wp:heading -->
 
 <!-- wp:spacer {"height":"0px","style":{"layout":{"flexSize":"10px","selfStretch":"fixed"}}} -->
 <div style="height:0px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:paragraph {"align":"center","fontFamily":"inter"} -->
-<p class="has-text-align-center has-inter-font-family"><?php esc_html_e('Something big is brewing! Our store is in the works and will be launching soon!', 'bh-studio');?></p>
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center"><?php esc_html_e( 'Something big is brewing! Our store is in the works and will be launching soon!', 'bh-studio' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":"0px","style":{"layout":{"flexSize":"100px","selfStretch":"fixed"}}} -->
