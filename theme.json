@@ -142,6 +142,29 @@
                             "fontStyle": "italic"
                         }
                     ]
+                },
+                {
+                    "fontFace": [
+                        {
+                            "fontFamily": "Ubuntu Sans",
+                            "fontStyle": "normal",
+                            "fontWeight": "100 800",
+                            "src": [
+                                "file:./assets/fonts/ubuntu-sans/UbuntuSans[wdth,wght].woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Ubuntu Sans",
+                            "fontStyle": "italic",
+                            "fontWeight": "100 800",
+                            "src": [
+                                "file:./assets/fonts/ubuntu-sans/UbuntuSans-Italic[wdth,wght].woff2"
+                            ]
+                        }
+                    ],
+                    "fontFamily": "\"Ubuntu Sans\", sans-serif",
+                    "name": "Ubuntu Sans",
+                    "slug": "ubuntu-sans"
                 }
             ],
             "textColumns": true,
