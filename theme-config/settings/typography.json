@@ -45,9 +45,32 @@
                         ]
                     }
                 ],
-                "fontFamily": "\"Ubuntu Sans\", sans-serif",
+                "fontFamily": "'Ubuntu Sans', Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif",
                 "name": "Ubuntu Sans",
                 "slug": "ubuntu-sans"
+            },
+            {
+                "fontFace": [
+                    {
+                        "fontFamily": "Playfair Display",
+                        "fontStyle": "normal",
+                        "fontWeight": "400 900",
+                        "src": [
+                            "file:./assets/fonts/playfair-display/Playfair-VariableFont_opsz,wdth,wght.woff2"
+                        ]
+                    },
+                    {
+                        "fontFamily": "Playfair Display",
+                        "fontStyle": "italic",
+                        "fontWeight": "400 900",
+                        "src": [
+                            "file:./assets/fonts/playfair-display/Playfair-Italic-VariableFont_opsz,wdth,wght.woff2"
+                        ]
+                    }
+                ],
+                "fontFamily": "'Playfair Display', Superclarendon, 'Bookman Old Style', 'URW Bookman', 'URW Bookman L', 'Georgia Pro', Georgia, serif",
+                "name": "Playfair Display",
+                "slug": "playfair-display"
             }
         ],
         "textColumns": true,
