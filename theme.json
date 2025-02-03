@@ -263,6 +263,31 @@
                     "fontFamily": "'Roboto Serif', serif",
                     "name": "Roboto Serif",
                     "slug": "roboto-serif"
+                },
+                {
+                    "fontFace": [
+                        {
+                            "fontFamily": "Noto Serif",
+                            "fontStretch": "normal",
+                            "fontStyle": "normal",
+                            "fontWeight": "100 900",
+                            "src": [
+                                "file:./assets/fonts/noto-serif/NotoSerif-VariableFont_wdth,wght.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Noto Serif",
+                            "fontStretch": "normal",
+                            "fontStyle": "italic",
+                            "fontWeight": "100 900",
+                            "src": [
+                                "file:./assets/fonts/noto-serif/NotoSerif-Italic-VariableFont_wdth,wght.woff2"
+                            ]
+                        }
+                    ],
+                    "fontFamily": "'Noto Serif', Iowan Old Style', 'Palatino Linotype', 'URW Palladio L', P052, serif",
+                    "name": "noto Serif",
+                    "slug": "noto-serif"
                 }
             ],
             "textColumns": true,
