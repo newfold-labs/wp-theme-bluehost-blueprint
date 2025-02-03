@@ -71,7 +71,53 @@
                 "fontFamily": "'Playfair Display', Superclarendon, 'Bookman Old Style', 'URW Bookman', 'URW Bookman L', 'Georgia Pro', Georgia, serif",
                 "name": "Playfair Display",
                 "slug": "playfair-display"
-            }
+            },
+			{
+				"fontFace": [
+					{
+						"fontFamily": "Source Sans Pro",
+						"fontWeight": "200 900",
+						"fontStretch": "normal",
+						"fontStyle": "normal",
+						"src": [ "file:./assets/fonts/source-sans-pro/source-sans-pro[wght].woff2" ]
+					},
+					{
+						"fontFamily": "Source Sans Pro",
+						"fontWeight": "200 900",
+						"fontStretch": "normal",
+						"fontStyle": "italic",
+						"src": [ "file:./assets/fonts/source-sans-pro/source-sans-pro-italic[wght].woff2" ]
+					}
+				],
+				"fontFamily": "'Source Sans 3', Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif",
+				"name": "Source Sans Pro",
+				"slug": "source-sans-pro"
+			},
+			{
+				"fontFace": [
+					{
+						"fontFamily": "Montserrat",
+						"fontStretch": "normal",
+						"fontStyle": "normal",
+						"fontWeight": "100 900",
+						"src": [
+							"file:./assets/fonts/montserrat/Montserrat-VariableFont_wght.woff2"
+						]
+					},
+					{
+						"fontFamily": "Montserrat",
+						"fontStretch": "normal",
+						"fontStyle": "italic",
+						"fontWeight": "100 900",
+						"src": [
+							"file:./assets/fonts/montserrat/Montserrat-Italic-VariableFont_wght.woff2"
+						]
+					}
+				],
+				"fontFamily": "Montserrat, Avenir, Corbel, 'URW Gothic', source-sans-pro, sans-serif",
+				"name": "Montserrat",
+				"slug": "montserrat"
+			}
         ],
         "textColumns": true,
         "writingMode": true
