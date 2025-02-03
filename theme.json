@@ -210,7 +210,7 @@
                             ]
                         }
                     ],
-                    "fontFamily": "Source Sans Pro, Bahnschrift, \"DIN Alternate\", \"Franklin Gothic Medium\", \"Nimbus Sans Narrow\", sans-serif-condensed, sans-serif",
+                    "fontFamily": "'Source Sans 3', Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif",
                     "name": "Source Sans Pro",
                     "slug": "source-sans-pro"
                 },
@@ -238,6 +238,31 @@
                     "fontFamily": "Montserrat, Avenir, Corbel, 'URW Gothic', source-sans-pro, sans-serif",
                     "name": "Montserrat",
                     "slug": "montserrat"
+                },
+                {
+                    "fontFace": [
+                        {
+                            "fontFamily": "Roboto Serif",
+                            "fontStretch": "normal",
+                            "fontStyle": "normal",
+                            "fontWeight": "100 900",
+                            "src": [
+                                "file:./assets/fonts/roboto-serif/RobotoSerif[grad,opsz,wdth,wgth].woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Roboto Serif",
+                            "fontStretch": "normal",
+                            "fontStyle": "italic",
+                            "fontWeight": "100 900",
+                            "src": [
+                                "file:./assets/fonts/roboto-serif/RobotoSerif-Italic[grad,opsz,wdth,wgth].woff2"
+                            ]
+                        }
+                    ],
+                    "fontFamily": "'Roboto Serif', serif",
+                    "name": "Roboto Serif",
+                    "slug": "roboto-serif"
                 }
             ],
             "textColumns": true,

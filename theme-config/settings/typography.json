@@ -117,6 +117,31 @@
 				"fontFamily": "Montserrat, Avenir, Corbel, 'URW Gothic', source-sans-pro, sans-serif",
 				"name": "Montserrat",
 				"slug": "montserrat"
+			},
+			{
+				"fontFace": [
+					{
+						"fontFamily": "Roboto Serif",
+						"fontStretch": "normal",
+						"fontStyle": "normal",
+						"fontWeight": "100 900",
+						"src": [
+							"file:./assets/fonts/roboto-serif/RobotoSerif[grad,opsz,wdth,wgth].woff2"
+						]
+					},
+					{
+						"fontFamily": "Roboto Serif",
+						"fontStretch": "normal",
+						"fontStyle": "italic",
+						"fontWeight": "100 900",
+						"src": [
+							"file:./assets/fonts/roboto-serif/RobotoSerif-Italic[grad,opsz,wdth,wgth].woff2"
+						]
+					}
+				],
+				"fontFamily": "'Roboto Serif', serif",
+				"name": "Roboto Serif",
+				"slug": "roboto-serif"
 			}
         ],
         "textColumns": true,
