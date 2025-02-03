@@ -288,6 +288,47 @@
                     "fontFamily": "'Noto Serif', Iowan Old Style', 'Palatino Linotype', 'URW Palladio L', P052, serif",
                     "name": "noto Serif",
                     "slug": "noto-serif"
+                },
+                {
+                    "fontFace": [
+                        {
+                            "fontFamily": "Roboto Flex",
+                            "fontStretch": "normal",
+                            "fontStyle": "normal",
+                            "fontWeight": "100 1000",
+                            "src": [
+                                "file:./assets/fonts/roboto-flex/RobotoFlex-VariableFont.woff2"
+                            ]
+                        }
+                    ],
+                    "fontFamily": "'Roboto Flex', system-ui, sans-serif",
+                    "name": "Roboto Flex",
+                    "slug": "roboto-flex"
+                },
+                {
+                    "fontFace": [
+                        {
+                            "fontFamily": "Nunito",
+                            "fontStretch": "normal",
+                            "fontStyle": "normal",
+                            "fontWeight": "200 900",
+                            "src": [
+                                "file:./assets/fonts/nunito/Nunito-VariableFont_wght.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Nunito",
+                            "fontStretch": "normal",
+                            "fontStyle": "italic",
+                            "fontWeight": "200 900",
+                            "src": [
+                                "file:./assets/fonts/nunito/Nunito-Italic-VariableFont_wght.woff2"
+                            ]
+                        }
+                    ],
+                    "fontFamily": "Nunito, ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manjari, 'Arial Rounded MT', 'Arial Rounded MT Bold', Calibri, source-sans-pro, sans-serif",
+                    "name": "Nunito",
+                    "slug": "nunito"
                 }
             ],
             "textColumns": true,
