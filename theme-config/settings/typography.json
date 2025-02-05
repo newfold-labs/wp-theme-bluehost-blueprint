@@ -104,6 +104,42 @@
 			{
 				"fontFace": [
 					{
+						"fontFamily": "Roboto Flex Expanded",
+						"fontStretch": "150%",
+						"fontStyle": "normal",
+						"fontWeight": "100 1000",
+						"fontDisplay": "swap",
+						"fontVariationSettings": "'wdth' 150",
+						"src": [
+							"file:./assets/fonts/roboto-flex/roboto-flex-variable.woff2"
+						]
+					}
+				],
+				"fontFamily": "'Roboto Flex Expanded', system-ui, sans-serif",
+				"name": "Roboto Flex Expanded",
+				"slug": "roboto-flex-expanded"
+			},
+			{
+				"fontFace": [
+					{
+						"fontFamily": "Roboto Flex Condensed",
+						"fontStretch": "25%",
+						"fontStyle": "normal",
+						"fontWeight": "100 1000",
+						"fontDisplay": "swap",
+						"fontVariationSettings": "'wdth' 25",
+						"src": [
+							"file:./assets/fonts/roboto-flex/roboto-flex-variable.woff2"
+						]
+					}
+				],
+				"fontFamily": "'Roboto Flex Condensed', system-ui, sans-serif",
+				"name": "Roboto Flex Condensed",
+				"slug": "roboto-flex-condensed"
+			},
+			{
+				"fontFace": [
+					{
 						"fontFamily": "Nunito",
 						"fontStretch": "normal",
 						"fontStyle": "normal",
