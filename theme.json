@@ -121,29 +121,6 @@
                     "slug": "system-font"
                 },
                 {
-                    "fontFamily": "'Source Serif 4', Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif",
-                    "name": "Source Serif 4",
-                    "slug": "source-serif-4",
-                    "fontFace": [
-                        {
-                            "fontFamily": "Source Serif 4",
-                            "src": [
-                                "file:./assets/fonts/source-serif-4/SourceSerif4Variable-Roman.otf.woff2"
-                            ],
-                            "fontWeight": "200 900",
-                            "fontStyle": "normal"
-                        },
-                        {
-                            "fontFamily": "Source Serif 4",
-                            "src": [
-                                "file:./assets/fonts/source-serif-4/SourceSerif4Variable-Italic.otf.woff2"
-                            ],
-                            "fontWeight": "200 900",
-                            "fontStyle": "italic"
-                        }
-                    ]
-                },
-                {
                     "fontFace": [
                         {
                             "fontFamily": "Ubuntu Sans",
@@ -192,56 +169,6 @@
                 {
                     "fontFace": [
                         {
-                            "fontFamily": "Source Sans Pro",
-                            "fontWeight": "200 900",
-                            "fontStretch": "normal",
-                            "fontStyle": "normal",
-                            "src": [
-                                "file:./assets/fonts/source-sans-pro/source-sans-pro[wght].woff2"
-                            ]
-                        },
-                        {
-                            "fontFamily": "Source Sans Pro",
-                            "fontWeight": "200 900",
-                            "fontStretch": "normal",
-                            "fontStyle": "italic",
-                            "src": [
-                                "file:./assets/fonts/source-sans-pro/source-sans-pro-italic[wght].woff2"
-                            ]
-                        }
-                    ],
-                    "fontFamily": "'Source Sans 3', Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif",
-                    "name": "Source Sans Pro",
-                    "slug": "source-sans-pro"
-                },
-                {
-                    "fontFace": [
-                        {
-                            "fontFamily": "Montserrat",
-                            "fontStretch": "normal",
-                            "fontStyle": "normal",
-                            "fontWeight": "100 900",
-                            "src": [
-                                "file:./assets/fonts/montserrat/Montserrat-VariableFont_wght.woff2"
-                            ]
-                        },
-                        {
-                            "fontFamily": "Montserrat",
-                            "fontStretch": "normal",
-                            "fontStyle": "italic",
-                            "fontWeight": "100 900",
-                            "src": [
-                                "file:./assets/fonts/montserrat/Montserrat-Italic-VariableFont_wght.woff2"
-                            ]
-                        }
-                    ],
-                    "fontFamily": "Montserrat, Avenir, Corbel, 'URW Gothic', source-sans-pro, sans-serif",
-                    "name": "Montserrat",
-                    "slug": "montserrat"
-                },
-                {
-                    "fontFace": [
-                        {
                             "fontFamily": "Roboto Serif",
                             "fontStretch": "normal",
                             "fontStyle": "normal",
@@ -263,31 +190,6 @@
                     "fontFamily": "'Roboto Serif', serif",
                     "name": "Roboto Serif",
                     "slug": "roboto-serif"
-                },
-                {
-                    "fontFace": [
-                        {
-                            "fontFamily": "Noto Serif",
-                            "fontStretch": "normal",
-                            "fontStyle": "normal",
-                            "fontWeight": "100 900",
-                            "src": [
-                                "file:./assets/fonts/noto-serif/NotoSerif-VariableFont_wdth,wght.woff2"
-                            ]
-                        },
-                        {
-                            "fontFamily": "Noto Serif",
-                            "fontStretch": "normal",
-                            "fontStyle": "italic",
-                            "fontWeight": "100 900",
-                            "src": [
-                                "file:./assets/fonts/noto-serif/NotoSerif-Italic-VariableFont_wdth,wght.woff2"
-                            ]
-                        }
-                    ],
-                    "fontFamily": "'Noto Serif', Iowan Old Style', 'Palatino Linotype', 'URW Palladio L', P052, serif",
-                    "name": "noto Serif",
-                    "slug": "noto-serif"
                 },
                 {
                     "fontFace": [
