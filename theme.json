@@ -126,16 +126,18 @@
                             "fontFamily": "Ubuntu Sans",
                             "fontStyle": "normal",
                             "fontWeight": "100 800",
+                            "fontDisplay": "swap",
                             "src": [
-                                "file:./assets/fonts/ubuntu-sans/UbuntuSans[wdth,wght].woff2"
+                                "file:./assets/fonts/ubuntu-sans/ubuntu-sans-variable.woff2"
                             ]
                         },
                         {
                             "fontFamily": "Ubuntu Sans",
                             "fontStyle": "italic",
                             "fontWeight": "100 800",
+                            "fontDisplay": "swap",
                             "src": [
-                                "file:./assets/fonts/ubuntu-sans/UbuntuSans-Italic[wdth,wght].woff2"
+                                "file:./assets/fonts/ubuntu-sans/ubuntu-sans-italic-variable.woff2"
                             ]
                         }
                     ],
@@ -149,16 +151,18 @@
                             "fontFamily": "Playfair Display",
                             "fontStyle": "normal",
                             "fontWeight": "400 900",
+                            "fontDisplay": "swap",
                             "src": [
-                                "file:./assets/fonts/playfair-display/Playfair-VariableFont_opsz,wdth,wght.woff2"
+                                "file:./assets/fonts/playfair-display/playfair-display-variable.woff2"
                             ]
                         },
                         {
                             "fontFamily": "Playfair Display",
                             "fontStyle": "italic",
                             "fontWeight": "400 900",
+                            "fontDisplay": "swap",
                             "src": [
-                                "file:./assets/fonts/playfair-display/Playfair-Italic-VariableFont_opsz,wdth,wght.woff2"
+                                "file:./assets/fonts/playfair-display/playfair-display-italic-variable.woff2"
                             ]
                         }
                     ],
@@ -173,8 +177,9 @@
                             "fontStretch": "normal",
                             "fontStyle": "normal",
                             "fontWeight": "100 900",
+                            "fontDisplay": "swap",
                             "src": [
-                                "file:./assets/fonts/roboto-serif/RobotoSerif[grad,opsz,wdth,wgth].woff2"
+                                "file:./assets/fonts/roboto-serif/roboto-serif-variable.woff2"
                             ]
                         },
                         {
@@ -182,8 +187,9 @@
                             "fontStretch": "normal",
                             "fontStyle": "italic",
                             "fontWeight": "100 900",
+                            "fontDisplay": "swap",
                             "src": [
-                                "file:./assets/fonts/roboto-serif/RobotoSerif-Italic[grad,opsz,wdth,wgth].woff2"
+                                "file:./assets/fonts/roboto-serif/roboto-serif-italic-variable.woff2"
                             ]
                         }
                     ],
@@ -198,8 +204,9 @@
                             "fontStretch": "normal",
                             "fontStyle": "normal",
                             "fontWeight": "100 1000",
+                            "fontDisplay": "swap",
                             "src": [
-                                "file:./assets/fonts/roboto-flex/RobotoFlex-VariableFont.woff2"
+                                "file:./assets/fonts/roboto-flex/roboto-flex-variable.woff2"
                             ]
                         }
                     ],
@@ -214,8 +221,9 @@
                             "fontStretch": "normal",
                             "fontStyle": "normal",
                             "fontWeight": "200 900",
+                            "fontDisplay": "swap",
                             "src": [
-                                "file:./assets/fonts/nunito/Nunito-VariableFont_wght.woff2"
+                                "file:./assets/fonts/nunito/nunito-variable.woff2"
                             ]
                         },
                         {
@@ -223,8 +231,9 @@
                             "fontStretch": "normal",
                             "fontStyle": "italic",
                             "fontWeight": "200 900",
+                            "fontDisplay": "swap",
                             "src": [
-                                "file:./assets/fonts/nunito/Nunito-Italic-VariableFont_wght.woff2"
+                                "file:./assets/fonts/nunito/nunito-italic-variable.woff2"
                             ]
                         }
                     ],
