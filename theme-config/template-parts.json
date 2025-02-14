@@ -11,6 +11,11 @@
 			"area": "header"
 		},
 		{
+			"name": "header-contrast",
+			"title": "Header contrast",
+			"area": "header"
+		},
+		{
 			"area": "footer",
 			"name": "footer",
 			"title": "Footer"
