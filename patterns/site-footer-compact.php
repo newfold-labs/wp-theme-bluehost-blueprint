@@ -38,8 +38,8 @@
 <p class=""><a href="#"><?php esc_html_e( 'Privacy Policy', 'bh-studio' ); ?></a></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"className":"nfd-text-opacity-80"} -->
-<p class="nfd-text-opacity-80">•</p>
+<!-- wp:paragraph -->
+<p>•</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
