@@ -24,6 +24,11 @@
 			"area": "footer",
 			"name": "footer",
 			"title": "Footer"
+		},
+		{
+			"area": "footer",
+			"name": "footer-compact",
+			"title": "Footer compact"
 		}
 	]
 }
