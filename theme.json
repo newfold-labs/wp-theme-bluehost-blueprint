@@ -403,6 +403,11 @@
             "area": "header"
         },
         {
+            "name": "header-with-topbar",
+            "title": "Header with topbar",
+            "area": "header"
+        },
+        {
             "area": "footer",
             "name": "footer",
             "title": "Footer"
