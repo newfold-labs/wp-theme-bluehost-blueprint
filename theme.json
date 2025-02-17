@@ -416,6 +416,11 @@
             "area": "footer",
             "name": "footer-compact",
             "title": "Footer compact"
+        },
+        {
+            "area": "footer",
+            "name": "footer-big",
+            "title": "Footer big"
         }
     ],
     "version": 3,
