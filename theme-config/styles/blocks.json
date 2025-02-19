@@ -43,9 +43,35 @@
 					"lineHeight": "1.5"
 				}
 			},
+			"core/post-excerpt": {
+				"color": {
+					"text": "var(--wp--preset--color--contrast-midtone)"
+				}
+			},
+			"core/post-terms": {
+				"elements": {
+					"link": {
+						"typography": {
+							"textDecoration": "none"
+						}
+					}
+				}
+			},
 			"core/verse": {
 				"typography": {
 					"lineHeight": "1.6"
+				}
+			},
+			"core/list": {
+				"typography" : {
+					"lineHeight": "1.5"
+				}
+			},
+			"core/list-item": {
+				"spacing": {
+					"margin": {
+						"top": "0.8rem"
+					}
 				}
 			},
 			"woocommerce/product-categories": {
