@@ -34,6 +34,11 @@
 			"area": "footer",
 			"name": "footer-big",
 			"title": "Footer big"
+		},
+		{
+			"area": "footer",
+			"name": "footer-with-cta",
+			"title": "Footer with CTA"
 		}
 	]
 }
