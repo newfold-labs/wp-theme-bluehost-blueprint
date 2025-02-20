@@ -24,7 +24,7 @@
 <div class="wp-block-group"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group"><!-- wp:site-logo /-->
 
-<!-- wp:navigation {"ref":4} /--></div>
+<!-- wp:navigation {} /--></div>
 <!-- /wp:group -->
 
 <!-- wp:buttons -->

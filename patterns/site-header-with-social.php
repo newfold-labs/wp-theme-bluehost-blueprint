@@ -53,6 +53,6 @@ printf(
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group" style="margin-top:0;padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)"><!-- wp:site-logo {"shouldSyncIcon":true} /-->
 
-<!-- wp:navigation {"ref":5,"icon":"menu","layout":{"type":"flex","justifyContent":"right"}} /--></div>
+<!-- wp:navigation {"icon":"menu","layout":{"type":"flex","justifyContent":"right"}} /--></div>
 <!-- /wp:group --></header>
 <!-- /wp:group -->
