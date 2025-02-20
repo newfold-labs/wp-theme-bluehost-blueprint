@@ -426,6 +426,11 @@
             "area": "footer",
             "name": "footer-with-cta",
             "title": "Footer with CTA"
+        },
+        {
+            "area": "footer",
+            "name": "footer-with-contacts",
+            "title": "Footer with contacts"
         }
     ],
     "version": 3,
