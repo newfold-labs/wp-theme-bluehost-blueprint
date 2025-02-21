@@ -1,0 +1,24 @@
+.wp-block-comment-author-name a,
+.wp-block-comment-date a {
+    text-decoration: none;
+}
+
+.wp-block-comment-template > li:not(:first-child),
+.wp-block-comment-template > li li {
+    border-top: 1px solid var(--wp--preset--color--base-midtone);
+    padding-top: 2rem;
+}
+
+.wp-block-comment-template ol {
+    padding-inline-start: 64px;
+}
+
+@media (max-width: 680px) {
+    .wp-block-comment-template ol {
+        padding-inline-start: 0;
+    }
+
+    .wp-block-comment-template > li > ol {
+        padding-inline-start: 64px;
+    }
+}
