@@ -13,3 +13,6 @@ require_once get_template_directory() . '/inc/autoloader.php';
 
 // Initialize theme assets.
 Bluehost\Studio\Assets::init();
+
+// Initialize the version control system.
+Bluehost\Studio\Version::init();

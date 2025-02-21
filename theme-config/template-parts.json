@@ -2,11 +2,38 @@
 	"templateParts": [
 		{
 			"area": "header",
-			"name": "header"
+			"name": "header",
+			"title": "Header"
+		},
+		{
+			"name": "header-contrast",
+			"title": "Header contrast",
+			"area": "header"
+		},
+		{
+			"name": "header-with-topbar",
+			"title": "Header with topbar",
+			"area": "header"
 		},
 		{
 			"area": "footer",
-			"name": "footer"
+			"name": "footer",
+			"title": "Footer"
+		},
+		{
+			"area": "footer",
+			"name": "footer-big",
+			"title": "Footer big"
+		},
+		{
+			"area": "footer",
+			"name": "footer-with-cta",
+			"title": "Footer with CTA"
+		},
+		{
+			"area": "footer",
+			"name": "footer-with-contacts",
+			"title": "Footer with contacts"
 		}
 	]
 }
