@@ -51,7 +51,17 @@ printf(
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-<div class="wp-block-group" style="margin-top:0;padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)"><!-- wp:site-logo {"shouldSyncIcon":true} /-->
+<div class="wp-block-group" style="margin-top:0;padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)">
+<?php
+$has_logo = has_custom_logo();
+if ( is_admin() || ( defined( 'REST_REQUEST' ) && REST_REQUEST && isset( $_GET['context'] ) && 'edit' === sanitize_text_field( wp_unslash( $_GET['context'] ) ) ) ) : // phpcs:ignore WordPress.Security.NonceVerification.Recommended
+	?>
+	<!-- wp:site-logo /-->
+<?php elseif ( $has_logo ) : ?>
+	<!-- wp:site-logo /-->
+<?php else : ?>
+	<!-- wp:site-title /-->
+<?php endif; ?>
 
 <!-- wp:navigation {"icon":"menu","layout":{"type":"flex","justifyContent":"right"}} /--></div>
 <!-- /wp:group --></header>

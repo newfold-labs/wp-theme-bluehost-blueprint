@@ -14,7 +14,18 @@
 ?>
 <!-- wp:group {"tagName":"header","align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}},"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}},"backgroundColor":"contrast","textColor":"base","layout":{"type":"constrained"}} -->
 <header class="wp-block-group alignfull has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-<div class="wp-block-group"><!-- wp:site-logo /-->
+<div class="wp-block-group">
+
+<?php
+$has_logo = has_custom_logo();
+if ( is_admin() || ( defined( 'REST_REQUEST' ) && REST_REQUEST && isset( $_GET['context'] ) && 'edit' === sanitize_text_field( wp_unslash( $_GET['context'] ) ) ) ) : // phpcs:ignore WordPress.Security.NonceVerification.Recommended
+	?>
+	<!-- wp:site-logo /-->
+<?php elseif ( $has_logo ) : ?>
+	<!-- wp:site-logo /-->
+<?php else : ?>
+	<!-- wp:site-title /-->
+<?php endif; ?>
 
 <!-- wp:navigation {"style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"600"}},"fontSize":"small"} /-->
 

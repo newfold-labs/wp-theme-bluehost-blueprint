@@ -23,7 +23,16 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:site-logo {"align":"center"} /-->
+<?php
+$has_logo = has_custom_logo();
+if ( is_admin() || ( defined( 'REST_REQUEST' ) && REST_REQUEST && isset( $_GET['context'] ) && 'edit' === sanitize_text_field( wp_unslash( $_GET['context'] ) ) ) ) : // phpcs:ignore WordPress.Security.NonceVerification.Recommended
+	?>
+	<!-- wp:site-logo {"align":"center"} /-->
+<?php elseif ( $has_logo ) : ?>
+	<!-- wp:site-logo {"align":"center"} /-->
+<?php else : ?>
+	<!-- wp:site-title {"textAlign":"center"} /-->
+<?php endif; ?>
 
 <!-- wp:group {"layout":{"type":"constrained","contentSize":"600px"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"align":"center"} -->

@@ -22,7 +22,18 @@
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"},"margin":{"top":"0"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull" style="margin-top:0;padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-<div class="wp-block-group"><!-- wp:site-logo /-->
+<div class="wp-block-group">
+
+<?php
+$has_logo = has_custom_logo();
+if ( is_admin() || ( defined( 'REST_REQUEST' ) && REST_REQUEST && isset( $_GET['context'] ) && 'edit' === sanitize_text_field( wp_unslash( $_GET['context'] ) ) ) ) : // phpcs:ignore WordPress.Security.NonceVerification.Recommended
+	?>
+	<!-- wp:site-logo /-->
+<?php elseif ( $has_logo ) : ?>
+	<!-- wp:site-logo /-->
+<?php else : ?>
+	<!-- wp:site-title /-->
+<?php endif; ?>
 
 <!-- wp:navigation {} /--></div>
 <!-- /wp:group -->
