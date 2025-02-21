@@ -41,7 +41,7 @@
 <div class="wp-block-comments" style="border-top-color:var(--wp--preset--color--base-midtone);border-top-width:1px;margin-top:var(--wp--preset--spacing--50);padding-top:var(--wp--preset--spacing--50)"><!-- wp:group {"metadata":{"name":"Comments Inside"},"style":{"spacing":{"blockGap":"var:preset|spacing|60"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group"><!-- wp:heading -->
-<h2 class="wp-block-heading">Comments</h2>
+<h2 class="wp-block-heading"><?php esc_html_e( 'Comments', 'bh-studio' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:comments-title {"showPostTitle":false,"level":4} /--></div>

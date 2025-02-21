@@ -20,7 +20,7 @@
 <!-- wp:group {"metadata":{"name":"Post Meta"},"style":{"spacing":{"blockGap":"8px"}},"fontSize":"small","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
 <div class="wp-block-group has-small-font-size"><!-- wp:group {"metadata":{"name":"Author"},"style":{"spacing":{"blockGap":"4px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group"><!-- wp:paragraph -->
-<p>Posted By: </p>
+<p><?php esc_html_e( 'Posted By', 'bh-studio' ); ?>: </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:post-author-name {"isLink":true,"linkTarget":"_blank"} /--></div>
@@ -32,7 +32,7 @@
 
 <!-- wp:group {"metadata":{"name":"Date"},"style":{"spacing":{"blockGap":"4px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group"><!-- wp:paragraph -->
-<p>On: </p>
+<p><?php esc_html_e( 'On', 'bh-studio' ); ?>: </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:post-date {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-midtone"}}}},"textColor":"contrast-midtone"} /--></div>
@@ -52,7 +52,7 @@
 <div class="wp-block-comments" style="border-top-color:var(--wp--preset--color--base-midtone);border-top-width:1px;margin-top:var(--wp--preset--spacing--50);padding-top:var(--wp--preset--spacing--50)"><!-- wp:group {"metadata":{"name":"Comments Inside"},"style":{"spacing":{"blockGap":"var:preset|spacing|60"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group"><!-- wp:heading -->
-<h2 class="wp-block-heading">Comments</h2>
+<h2 class="wp-block-heading"><?php esc_html_e( 'Comments', 'bh-studio' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:comments-title {"showPostTitle":false,"level":4} /--></div>
