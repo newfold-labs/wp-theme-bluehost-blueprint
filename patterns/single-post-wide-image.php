@@ -34,8 +34,8 @@
 <div class="wp-block-group"><!-- wp:post-featured-image {"aspectRatio":"auto"} /--></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"metadata":{"name":"Narrow Container"},"layout":{"type":"constrained","contentSize":"65ch"}} -->
-<div class="wp-block-group"><!-- wp:post-content {"layout":{"type":"constrained"}} /-->
+<!-- wp:group {"metadata":{"name":"Narrow Container"},"style":{"spacing":{"padding":{"top":"0","bottom":"var:preset|spacing|30"}}},"layout":{"type":"constrained","contentSize":"65ch"}} -->
+<div class="wp-block-group" style="padding-top:0;padding-bottom:var(--wp--preset--spacing--30)"><!-- wp:post-content {"layout":{"type":"constrained"}} /-->
 
 <!-- wp:pattern {"slug":"bh-studio/post-comments"} /-->
 
