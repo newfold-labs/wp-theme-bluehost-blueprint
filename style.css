@@ -25,3 +25,11 @@ h1, h2, h3, h4, h5, h6, blockquote, caption, figcaption, p {
 [class*="is-style-block-overlap"] + *:not([style*="margin-top"]) {
 	margin-top: 0;
 }
+
+div[class*="wp-block-"] figcaption {
+	color: var(--wp--preset--color--contrast-midtone);
+	font-size: var(--wp--preset--font-size--small);
+	margin-bottom: 0;
+	margin-top: 8px;
+	text-align: center;
+}

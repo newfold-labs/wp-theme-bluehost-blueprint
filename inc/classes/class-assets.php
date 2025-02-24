@@ -27,6 +27,8 @@ class Assets {
 	public static function init() {
 		// Registers styles and scripts.
 		add_action( 'wp_enqueue_scripts', array( __CLASS__, 'enqueue_frontend_assets' ) );
+
+		add_action( 'init', array( __CLASS__, 'enqueue_custom_block_styles' ) );
 	}
 
 	/**
@@ -50,5 +52,29 @@ class Assets {
 			array(),
 			$theme_version
 		);
+	}
+
+	/**
+	 * Load custom block styles.
+	 */
+	public static function enqueue_custom_block_styles() {
+
+		$files = glob( get_template_directory() . '/assets/block-styles/*.css' );
+
+		foreach ( $files as $file ) {
+
+			// Get the filename and core block name.
+			$filename   = basename( $file, '.css' );
+			$block_name = str_replace( 'core-', 'core/', $filename );
+
+			wp_enqueue_block_style(
+				$block_name,
+				array(
+					'handle' => "nfd-block-{$filename}",
+					'src'    => get_theme_file_uri( "assets/block-styles/{$filename}.css" ),
+					'path'   => get_theme_file_path( "assets/block-styles/{$filename}.css" ),
+				)
+			);
+		}
 	}
 }
