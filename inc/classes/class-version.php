@@ -4,12 +4,12 @@
  *
  * Handles theme versioning and database migrations.
  *
- * @package Bluehost\Studio
+ * @package Bluehost\Blueprint
  * @author  Bluehost
  * @since   1.0.0
  */
 
-namespace Bluehost\Studio;
+namespace Bluehost\Blueprint;
 
 /**
  * Class Version
@@ -24,7 +24,7 @@ class Version {
 	 *
 	 * @since 1.0.0
 	 */
-	const OPTION_KEY = 'bh_studio_theme_version';
+	const OPTION_KEY = 'bluehost_blueprint_theme_version';
 
 	/**
 	 * Initializes version checks and migrations.
@@ -90,8 +90,8 @@ class Version {
 	 */
 	private static function migrate_to_1_1_0() {
 		// Example: Adding a new option to the database.
-		if ( ! get_option( 'bh_studio_new_option' ) ) {
-			update_option( 'bh_studio_new_option', 'value' );
+		if ( ! get_option( 'bluehost_blueprint_new_option' ) ) {
+			update_option( 'bluehost_blueprint_new_option', 'value' );
 		}
 	}
 }

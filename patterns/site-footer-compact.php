@@ -1,13 +1,13 @@
 <?php
 /**
  * Title: Site footer copact
- * Slug: bh-studio/site-footer-compact
- * Categories: bh-studio-footer
+ * Slug: bluehost-blueprint/site-footer-compact
+ * Categories: bluehost-blueprint-footer
  * Block Types: core/paragraph, core/social-links, core/group, core/stack
  * Keywords: site footer
  * Description: A single row compact footer.
  *
- * @package bh-studio
+ * @package Bluehost\Blueprint
  * @since 1.0.0
  */
 
@@ -16,7 +16,7 @@
 <footer class="wp-block-group alignfull has-contrast-midtone-color has-base-midtone-background-color has-text-color has-background has-link-color" style="padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"width":"33.34%"} -->
 <div class="wp-block-column" style="flex-basis:33.34%"><!-- wp:paragraph -->
-<p class=""><?php echo esc_html__( '&copy; Copyright ', 'bh-studio' ) . esc_html( gmdate( 'Y' ) ); ?>. <?php esc_html_e( 'All rights reserved.', 'bh-studio' ); ?></p>
+<p class=""><?php echo esc_html__( '&copy; Copyright ', 'bluehost-blueprint' ) . esc_html( gmdate( 'Y' ) ); ?>. <?php esc_html_e( 'All rights reserved.', 'bluehost-blueprint' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
@@ -35,7 +35,7 @@
 <!-- wp:column {"width":"33.33%"} -->
 <div class="wp-block-column" style="flex-basis:33.33%"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group"><!-- wp:paragraph -->
-<p class=""><a href="#"><?php esc_html_e( 'Privacy Policy', 'bh-studio' ); ?></a></p>
+<p class=""><a href="#"><?php esc_html_e( 'Privacy Policy', 'bluehost-blueprint' ); ?></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -43,7 +43,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p class=""><a href="#"><?php esc_html_e( 'Terms and Conditions', 'bh-studio' ); ?></a></p>
+<p class=""><a href="#"><?php esc_html_e( 'Terms and Conditions', 'bluehost-blueprint' ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>

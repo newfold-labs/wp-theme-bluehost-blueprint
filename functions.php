@@ -1,10 +1,10 @@
 <?php
 /**
- * Bluehost Studio functions and definitions
+ * Bluehost Blueprint functions and definitions
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package Bluehost\Studio
+ * @package Bluehost\Blueprint
  * @since 1.0.0
  */
 
@@ -12,7 +12,7 @@
 require_once get_template_directory() . '/inc/autoloader.php';
 
 // Initialize theme assets.
-Bluehost\Studio\Assets::init();
+Bluehost\Blueprint\Assets::init();
 
 // Initialize the version control system.
-Bluehost\Studio\Version::init();
+Bluehost\Blueprint\Version::init();

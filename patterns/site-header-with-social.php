@@ -1,13 +1,13 @@
 <?php
 /**
  * Title: Site header with social links
- * Slug: bh-studio/site-header-with-social
- * Categories: bh-studio-header
+ * Slug: bluehost-blueprint/site-header-with-social
+ * Categories: bluehost-blueprint-header
  * Block Types: core/site-logo, core/navigation, core/group, core/stack
  * Keywords: site header
  * Description: A two rows site header with social and contancts above.
  *
- * @package bh-studio
+ * @package Bluehost\Blueprint
  * @since 1.0.0
  */
 
@@ -18,7 +18,7 @@
 <div class="wp-block-group"><!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-midtone"}}}},"textColor":"contrast-midtone"} -->
 <p class="has-contrast-midtone-color has-text-color has-link-color">
-<strong><?php esc_html_e( 'Come See us:', 'bh-studio' ); ?></strong> <?php esc_html_e( '123 Main St', 'bh-studio' ); ?></p>
+<strong><?php esc_html_e( 'Come See us:', 'bluehost-blueprint' ); ?></strong> <?php esc_html_e( '123 Main St', 'bluehost-blueprint' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-midtone"}}}},"textColor":"contrast-midtone"} -->
@@ -30,8 +30,8 @@
 <?php
 printf(
 	// Translators: %s is the link to social media.
-	esc_html__( 'Find us on %s', 'bh-studio' ),
-	'<a href="#">' . esc_html__( 'Social Media', 'bh-studio' ) . '</a>'
+	esc_html__( 'Find us on %s', 'bluehost-blueprint' ),
+	'<a href="#">' . esc_html__( 'Social Media', 'bluehost-blueprint' ) . '</a>'
 );
 ?>
 </p>

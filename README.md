@@ -1,6 +1,6 @@
-# Bluehost Studio
+# Bluehost Blueprint
 
-Bluehost Studio is a free open source WordPress theme distributed under the terms of the GNU General Public License v2.0 or later.
+Bluehost Blueprint is a free open source WordPress theme distributed under the terms of the GNU General Public License v2.0 or later.
 
 This theme is a [Block Theme](https://developer.wordpress.org/themes/learn/understanding-block-themes/) and supports [WooCommerce](https://woocommerce.com/) out of the box. It also supports the Bluehost Cloud Pattern Library.
 
@@ -19,7 +19,7 @@ This theme is a [Block Theme](https://developer.wordpress.org/themes/learn/under
 
 1. Log in to your WordPress admin dashboard
 2. Click on Appearance > Themes > Add New
-3. Search for "BH Studio"
+3. Search for "BH Blueprint"
 4. Click on Install
 5. Click on Activate once the theme is installed
 

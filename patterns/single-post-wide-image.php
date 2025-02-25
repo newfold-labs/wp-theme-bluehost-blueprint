@@ -1,9 +1,12 @@
 <?php
 /**
  * Title: Single Post - Wide Image
- * Slug: bh-studio/single-post-wide-image
+ * Slug: bluehost-blueprint/single-post-wide-image
  * Inserter: no
+ *
+ * @package Bluehost\Blueprint
  */
+
 ?>
 <!-- wp:template-part {"slug":"header","tagName":"header"} /-->
 
@@ -37,12 +40,12 @@
 <!-- wp:group {"metadata":{"name":"Narrow Container"},"style":{"spacing":{"padding":{"top":"0","bottom":"var:preset|spacing|30"}}},"layout":{"type":"constrained","contentSize":"65ch"}} -->
 <div class="wp-block-group" style="padding-top:0;padding-bottom:var(--wp--preset--spacing--30)"><!-- wp:post-content {"layout":{"type":"constrained"}} /-->
 
-<!-- wp:pattern {"slug":"bh-studio/post-comments"} /-->
+<!-- wp:pattern {"slug":"bluehost-blueprint/post-comments"} /-->
 
 </div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:pattern {"slug":"bh-studio/blog-posts-horizontal"} /-->
- 
+<!-- wp:pattern {"slug":"bluehost-blueprint/blog-posts-horizontal"} /-->
+
 <!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->

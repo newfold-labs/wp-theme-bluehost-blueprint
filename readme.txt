@@ -1,4 +1,4 @@
-== Bluehost Studio ==
+== Bluehost Blueprint ==
 
 Contributors: Bluehost
 Requires at least: 6.6
@@ -20,8 +20,8 @@ A basic Block Theme created by Bluehost
 
 == Copyright ==
 
-Bluehost Studio WordPress Theme, (C) 2025 Newfold Digital
-Bluehost Studio is distributed under the terms of the GNU GPL.
+Bluehost Blueprint WordPress Theme, (C) 2025 Newfold Digital
+Bluehost Blueprint is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by

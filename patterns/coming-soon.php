@@ -1,9 +1,12 @@
 <?php
 /**
  * Title: coming-soon
- * Slug: bh-studio/coming-soon
+ * Slug: bluehost-blueprint/coming-soon
  * Inserter: no
+ *
+ * @package Bluehost\Blueprint
  */
+
 ?>
 <!-- wp:woocommerce/coming-soon {"storeOnly":true,"className":"woocommerce-coming-soon-store-only"} -->
 <div class="wp-block-woocommerce-coming-soon woocommerce-coming-soon-store-only"><!-- wp:template-part {"slug":"header","tagName":"header"} /-->
@@ -14,7 +17,7 @@
 <!-- /wp:spacer -->
 
 <!-- wp:heading {"textAlign":"center","level":1} -->
-<h1 class="wp-block-heading has-text-align-center"><?php esc_html_e( 'Great things are on the horizon', 'bh-studio' ); ?></h1>
+<h1 class="wp-block-heading has-text-align-center"><?php esc_html_e( 'Great things are on the horizon', 'bluehost-blueprint' ); ?></h1>
 <!-- /wp:heading -->
 
 <!-- wp:spacer {"height":"0px","style":{"layout":{"flexSize":"10px","selfStretch":"fixed"}}} -->
@@ -22,7 +25,7 @@
 <!-- /wp:spacer -->
 
 <!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center"><?php esc_html_e( 'Something big is brewing! Our store is in the works and will be launching soon!', 'bh-studio' ); ?></p>
+<p class="has-text-align-center"><?php esc_html_e( 'Something big is brewing! Our store is in the works and will be launching soon!', 'bluehost-blueprint' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":"0px","style":{"layout":{"flexSize":"100px","selfStretch":"fixed"}}} -->

@@ -1,15 +1,16 @@
 <?php
 /**
  * Title: Blog Posts with Featured Image and Excerpt
- * Slug: bh-studio/blog-posts-horizontal
- * Categories: bh-studio/posts
+ * Slug: bluehost-blueprint/blog-posts-horizontal
+ * Categories: bluehost-blueprint/posts
  * Block Types: core/paragraph, core/group, core/columns, core/post-title, core/post-excerpt, core/post-author-name, core/post-date
  * Keywords: blog posts, featured image, post excerpt, author info
  * Description: A section displaying blog posts in a multi-column layout with featured images, titles, excerpts, and author details. Ideal for showcasing content in a footer area with a call-to-action.
  *
- * @package bh-studio
+ * @package Bluehost\Blueprint
  * @since 1.0.0
  */
+
 ?>
 <!-- wp:group {"metadata":{"name":"Blog"},"style":{"border":{"top":{"color":"var:preset|color|base-midtone","width":"1px"}},"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group" style="border-top-color:var(--wp--preset--color--base-midtone);border-top-width:1px;padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><!-- wp:query {"queryId":14,"query":{"perPage":4,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"exclude","inherit":false}} -->

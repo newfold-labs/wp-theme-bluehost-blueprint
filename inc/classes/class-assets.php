@@ -4,12 +4,12 @@
  *
  * Registers and enqueues all necessary styles and scripts.
  *
- * @package Bluehost\Studio
+ * @package Bluehost\Blueprint
  * @author  Bluehost
  * @since   1.0.0
  */
 
-namespace Bluehost\Studio;
+namespace Bluehost\Blueprint;
 
 /**
  * Class Assets
@@ -47,7 +47,7 @@ class Assets {
 		 * @since 1.0.0
 		 */
 		wp_enqueue_style(
-			'bh-studio-style',
+			'bluehost-blueprint-style',
 			get_parent_theme_file_uri( 'style.css' ),
 			array(),
 			$theme_version

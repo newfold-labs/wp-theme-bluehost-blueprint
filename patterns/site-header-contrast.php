@@ -1,13 +1,13 @@
 <?php
 /**
  * Title: Site header contrast
- * Slug: bh-studio/site-header-contrast
- * Categories: bh-studio-header
+ * Slug: bluehost-blueprint/site-header-contrast
+ * Categories: bluehost-blueprint-header
  * Block Types: core/site-logo, core/navigation, core/group, core/stack
  * Keywords: site header
  * Description: A single row site header with contrast colors.
  *
- * @package bh-studio
+ * @package Bluehost\Blueprint
  * @since 1.0.0
  */
 

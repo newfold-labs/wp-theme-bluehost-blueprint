@@ -1,13 +1,13 @@
 <?php
 /**
  * Title: Site footer big
- * Slug: bh-studio/site-footer-big
- * Categories: bh-studio-footer
+ * Slug: bluehost-blueprint/site-footer-big
+ * Categories: bluehost-blueprint-footer
  * Block Types: core/paragraph, core/social-links, core/group, core/columns
  * Keywords: site footer
  * Description: A multi column footer.
  *
- * @package bh-studio
+ * @package Bluehost\Blueprint
  * @since 1.0.0
  */
 
@@ -16,7 +16,7 @@
 <footer class="wp-block-group alignfull has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"width":"50%"} -->
 <div class="wp-block-column" style="flex-basis:50%"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"medium"} -->
-<p class="has-medium-font-size" style="font-style:normal;font-weight:600"><?php esc_html_e( 'Create stunning and visually captivating websites powered by WordPress blocks', 'bh-studio' ); ?></p>
+<p class="has-medium-font-size" style="font-style:normal;font-weight:600"><?php esc_html_e( 'Create stunning and visually captivating websites powered by WordPress blocks', 'bluehost-blueprint' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:social-links {"iconColor":"base","iconColorValue":"var:preset|color|base","size":"has-normal-icon-size","className":"is-style-logos-only","layout":{"type":"flex","justifyContent":"left"}} -->
@@ -35,7 +35,7 @@
 	echo wp_kses(
 		sprintf(
 			/* translators: %s: year */
-			__( 'Copyright &copy; %s, Company LLC<br><br>1412 Main Street<br> Suite 51 <br>New York, NY 10001', 'bh-studio' ),
+			__( 'Copyright &copy; %s, Company LLC<br><br>1412 Main Street<br> Suite 51 <br>New York, NY 10001', 'bluehost-blueprint' ),
 			esc_html( gmdate( 'Y' ) )
 		),
 		array(
@@ -49,7 +49,7 @@
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"textColor":"base"} -->
-<h3 class="wp-block-heading has-base-color has-text-color has-link-color"><?php esc_html_e( 'About', 'bh-studio' ); ?></h3>
+<h3 class="wp-block-heading has-base-color has-text-color has-link-color"><?php esc_html_e( 'About', 'bluehost-blueprint' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:navigation {"overlayMenu":"never","style":{"spacing":{"blockGap":"var:preset|spacing|20"}}} /--></div>
@@ -57,7 +57,7 @@
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"textColor":"base"} -->
-<h3 class="wp-block-heading has-base-color has-text-color has-link-color"><?php esc_html_e( 'Helpful Tools', 'bh-studio' ); ?></h3>
+<h3 class="wp-block-heading has-base-color has-text-color has-link-color"><?php esc_html_e( 'Helpful Tools', 'bluehost-blueprint' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:navigation {"overlayMenu":"never","style":{"spacing":{"blockGap":"var:preset|spacing|20"}}} /--></div>
@@ -65,7 +65,7 @@
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"textColor":"base"} -->
-<h3 class="wp-block-heading has-base-color has-text-color has-link-color"><?php esc_html_e( 'Learn More', 'bh-studio' ); ?></h3>
+<h3 class="wp-block-heading has-base-color has-text-color has-link-color"><?php esc_html_e( 'Learn More', 'bluehost-blueprint' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:navigation {"overlayMenu":"never","style":{"spacing":{"blockGap":"var:preset|spacing|20"}}} /--></div>
