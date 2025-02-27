@@ -29,6 +29,8 @@ class Assets {
 		add_action( 'wp_enqueue_scripts', array( __CLASS__, 'enqueue_frontend_assets' ) );
 
 		add_action( 'init', array( __CLASS__, 'enqueue_custom_block_styles' ) );
+
+		add_action( 'after_setup_theme', array( __CLASS__, 'enqueue_editor_style' ) );
 	}
 
 	/**
@@ -48,6 +50,18 @@ class Assets {
 		 */
 		wp_enqueue_style(
 			'bluehost-blueprint-style',
+			get_parent_theme_file_uri( './assets/editor-styles/editor-style.css' ),
+			array(),
+			$theme_version
+		);
+
+		/**
+		 * Enqueues editor stylesheet.
+		 *
+		 * @since 1.0.0
+		 */
+		wp_enqueue_style(
+			'bluehost-blueprint-editor-style',
 			get_parent_theme_file_uri( 'style.css' ),
 			array(),
 			$theme_version
@@ -76,5 +90,16 @@ class Assets {
 				)
 			);
 		}
+	}
+
+	/**
+	 * Enqueues the editor style.
+	 *
+	 * This is a required method for themes that wish to support the block editor.
+	 *
+	 * @since 1.0.0
+	 */
+	public static function enqueue_editor_style() {
+		add_editor_style( './assets/editor-styles/editor-style.css' );
 	}
 }

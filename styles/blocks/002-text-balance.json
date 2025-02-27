@@ -1,0 +1,10 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+	"version": 3,
+	"title": "Balanced Text",
+	"slug": "text-wrap-balance",
+	"blockTypes": ["core/paragraph"],
+	"styles": {
+		"css": "text-wrap-style: balance;"
+	}
+}

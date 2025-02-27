@@ -1,5 +1,6 @@
 {
     "typography": {
+		"defaultFontSizes": false,
         "dropCap": true,
         "fontFamilies": [
             {
@@ -165,6 +166,50 @@
 				"slug": "nunito"
 			}
         ],
+		"fontSizes": [
+			{
+				"fluid": false,
+				"name": "Small",
+				"size": "0.813rem",
+				"slug": "small"
+			},
+			{
+				"fluid": {
+					"max": "1em",
+					"min": "0.875rem"
+				},
+				"name": "Medium",
+				"size": "1em",
+				"slug": "medium"
+			},
+			{
+				"fluid": {
+					"max": "1.25em",
+					"min": "1.125rem"
+				},
+				"name": "Large",
+				"size": "1.25em",
+				"slug": "large"
+			},
+			{
+				"fluid": {
+					"max": "1.75em",
+					"min": "1.5rem"
+				},
+				"name": "Extra Large",
+				"size": "1.75em",
+				"slug": "x-large"
+			},
+			{
+				"fluid": {
+					"max": "4em",
+					"min": "3.5rem"
+				},
+				"name": "Extra Extra Large",
+				"size": "3.5em",
+				"slug": "xx-large"
+			}
+		],
         "textColumns": true,
         "writingMode": true
     }

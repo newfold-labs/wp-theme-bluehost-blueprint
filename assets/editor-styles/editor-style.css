@@ -1,0 +1,3 @@
+:root {
+    --wp--preset--font-size--huge: clamp(6rem, 10vw, 10rem);
+}
