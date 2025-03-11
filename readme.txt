@@ -164,14 +164,4 @@ Copyright 2014 The Nunito Project Authors (https://github.com/googlefonts/nunito
 Source: http://www.sansoxygen.com
 License: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL
 
-Inter
-Copyright 2020 The Inter Project Authors (https://github.com/rsms/inter)
-Source: https://rsms.me/
-License: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
-
-Cardo
-Copyright (c) 2002-2011, David J. Perry (hospes02@scholarsfonts.net)
-Source: http://scholarsfonts.net
-License: This Font Software is licensed under the SIL Open Font License, Version 1.1.  This license is available with a FAQ at: http://scripts.sil.org/OFL.
-
 
