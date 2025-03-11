@@ -433,6 +433,9 @@
                 "typography": {
                     "fontSize": "var(--wp--preset--font-size--small)"
                 }
+            },
+            "core/separator": {
+                "css": " &:not(.is-style-wide):not(.is-style-dots):not(.alignwide):not(.alignfull){width: 120px}"
             }
         },
         "color": {
