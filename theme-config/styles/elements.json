@@ -29,6 +29,11 @@
 				"color": {
 					"text": "var(--wp--preset--color--contrast)"
 				}
+			},
+			"caption": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--small)"
+				}
 			}
 		}
 }
