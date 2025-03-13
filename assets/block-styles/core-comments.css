@@ -13,6 +13,22 @@
     padding-inline-start: 64px;
 }
 
+form.comment-form {
+    label {
+        font-size: var(--wp--preset--font-size--small);
+    }
+    textarea {
+        border: 1px solid var(--wp--preset--color--base-midtone);
+    }
+    input:not([type="submit"]) {
+        border: 1px solid var(--wp--preset--color--base-midtone);
+    }
+}
+
+.wp-block-post-comments-form .comment-form-cookies-consent #wp-comment-cookies-consent + label {
+    margin-top: .35em;
+}
+
 @media (max-width: 680px) {
     .wp-block-comment-template ol {
         padding-inline-start: 0;
