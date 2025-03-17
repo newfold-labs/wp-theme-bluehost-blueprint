@@ -41,3 +41,7 @@ div[class*="wp-block-"] figcaption {
 	margin-top: 8px;
 	text-align: center;
 }
+
+div[class*="wp-block-"] .wp-block-image figcaption a {
+	width: auto;
+}
