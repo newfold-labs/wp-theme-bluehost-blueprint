@@ -3,5 +3,8 @@
 	"version": 3,
 	"title": "First element in mobile view",
 	"slug": "mobile-first-element",
-	"blockTypes": ["core/column"]
+	"blockTypes": ["core/column"],
+	"styles": {
+		"css": ""
+	}
 }
