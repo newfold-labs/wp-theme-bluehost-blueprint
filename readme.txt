@@ -33,6 +33,9 @@ but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 
+== Images ==
+https://cdn.stocksnap.io/img-thumbs/960w/IRJKLKBWQD.jpg - "Hand Sparkler" by Altered Reality is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/?ref=openverse.
+
 
 == Fonts ==
 
