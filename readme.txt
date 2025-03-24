@@ -35,8 +35,11 @@ GNU General Public License for more details.
 
 == Images ==
 IRJKLKBWQD.webp - "Hand Sparkler" by Altered Reality is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/?ref=openverse.
-StockSnap_EXZZBXPUS6.webp - "Inspirational Word" di Kristin Hardwick è contrassegnato con CC0 1.0. Per visualizzare i termini vai su https://creativecommons.org/publicdomain/zero/1.0/?ref=openverse.
-
+StockSnap_EXZZBXPUS6.webp - "Inspirational Word" by Kristin Hardwick is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/?ref=openverse.
+14238079282_271759b798_k.webp - "Organ Mountains-Desert Peaks National Monument" by mypubliclands is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/?ref=openverse.
+17877804936_810a01baed_k.webp - "Organ Mountains-Desert Peaks National Monument" by mypubliclands is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/?ref=openverse.
+3296444307_ccc20be908_k.webp - "Mountain & Desert at Dusk #1" by philipbouchard is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/?ref=openverse.
+8447530115_42bdfd9db6_k.webp - "VISIONS: Seeing the Aurora in a New Light" by NASA Goddard Photo and Video is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/?ref=openverse.
 
 == Fonts ==
 
