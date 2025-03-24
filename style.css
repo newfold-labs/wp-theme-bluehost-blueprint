@@ -27,7 +27,8 @@ select {
 	margin-top: 0;
 }
 
-[class*="is-style-text-wrap-balance"] {
+[class*="is-style-text-wrap-balance"],
+[class*="is-style-text-wrap-balance"] p {
 	text-wrap-style: balance;
 }
 
