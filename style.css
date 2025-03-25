@@ -43,3 +43,7 @@ div[class*="wp-block-"] figcaption {
 div[class*="wp-block-"] .wp-block-image figcaption a {
 	width: auto;
 }
+
+.woocommerce-account .wp-block-post-title, .woocommerce-account main .woocommerce, .woocommerce-cart .wp-block-post-title, .woocommerce-cart main .woocommerce, .woocommerce-checkout .wp-block-post-title, .woocommerce-checkout main .woocommerce {
+    max-width: var(--wp--style--global--content-size);
+}
