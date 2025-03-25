@@ -16,42 +16,42 @@
                     "slug": "contrast"
                 },
                 {
-                    "color": "#283618",
-                    "name": "Forest Canopy",
+                    "color": "#16425B",
+                    "name": "Indigo Dye",
                     "slug": "accent-1"
                 },
                 {
-                    "color": "#606C38",
-                    "name": "Olive Grove",
+                    "color": "#2F6690",
+                    "name": "Lapis Lazuli",
                     "slug": "accent-2"
                 },
                 {
-                    "color": "#B5B08A",
-                    "name": "Sandstone Beige",
+                    "color": "#82B4D3",
+                    "name": "Carolina Blue",
                     "slug": "accent-3"
                 },
                 {
-                    "color": "#823933",
-                    "name": "Cranberry Clay",
+                    "color": "#235E70",
+                    "name": "Midnight Green",
                     "slug": "accent-4"
                 },
                 {
-                    "color": "#BC6C25",
-                    "name": "Amber Spice",
+                    "color": "#30A2C5",
+                    "name": "Pacific Cyan",
                     "slug": "accent-5"
                 },
                 {
-                    "color": "#F3EAAE",
-                    "name": "Golden Harvest",
+                    "color": "#CDE7EF",
+                    "name": "Columbia Blue",
                     "slug": "accent-6"
                 },
                 {
-                    "color": "#f0f0f0",
+                    "color": "#f4f4f4",
                     "name": "Base Midtone",
                     "slug": "base-midtone"
                 },
                 {
-                    "color": "#3d3d3d",
+                    "color": "#323232",
                     "name": "Contrast Midtone",
                     "slug": "contrast-midtone"
                 }
