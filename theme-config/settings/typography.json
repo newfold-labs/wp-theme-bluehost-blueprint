@@ -1,81 +1,81 @@
 {
-    "typography": {
+	"typography": {
 		"defaultFontSizes": false,
-        "dropCap": true,
-        "fontFamilies": [
-            {
-                "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
-                "name": "System Font",
-                "slug": "system-font"
-            },
-            {
-                "fontFace": [
-                    {
-                        "fontFamily": "Ubuntu Sans",
-                        "fontStyle": "normal",
-                        "fontWeight": "100 800",
-						"fontDisplay": "swap",
-                        "src": [
-                            "file:./assets/fonts/ubuntu-sans/ubuntu-sans-variable.woff2"
-                        ]
-                    },
-                    {
-                        "fontFamily": "Ubuntu Sans",
-                        "fontStyle": "italic",
-                        "fontWeight": "100 800",
-						"fontDisplay": "swap",
-                        "src": [
-                            "file:./assets/fonts/ubuntu-sans/ubuntu-sans-italic-variable.woff2"
-                        ]
-                    }
-                ],
-                "fontFamily": "'Ubuntu Sans', Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif",
-                "name": "Ubuntu Sans",
-                "slug": "ubuntu-sans"
-            },
-            {
-                "fontFace": [
-                    {
-                        "fontFamily": "Playfair Display",
-                        "fontStyle": "normal",
-                        "fontWeight": "400 900",
-						"fontDisplay": "swap",
-                        "src": [
-                            "file:./assets/fonts/playfair-display/playfair-display-variable.woff2"
-                        ]
-                    },
-                    {
-                        "fontFamily": "Playfair Display",
-                        "fontStyle": "italic",
-                        "fontWeight": "400 900",
-						"fontDisplay": "swap",
-                        "src": [
-                            "file:./assets/fonts/playfair-display/playfair-display-italic-variable.woff2"
-                        ]
-                    }
-                ],
-                "fontFamily": "'Playfair Display', Superclarendon, 'Bookman Old Style', 'URW Bookman', 'URW Bookman L', 'Georgia Pro', Georgia, serif",
-                "name": "Playfair Display",
-                "slug": "playfair-display"
-            },
+		"dropCap": true,
+		"fontFamilies": [
+			{
+				"fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
+				"name": "System Font",
+				"slug": "system-font"
+			},
 			{
 				"fontFace": [
 					{
+						"fontDisplay": "swap",
+						"fontFamily": "Ubuntu Sans",
+						"fontStyle": "normal",
+						"fontWeight": "100 800",
+						"src": [
+							"file:./assets/fonts/ubuntu-sans/ubuntu-sans-variable.woff2"
+						]
+					},
+					{
+						"fontDisplay": "swap",
+						"fontFamily": "Ubuntu Sans",
+						"fontStyle": "italic",
+						"fontWeight": "100 800",
+						"src": [
+							"file:./assets/fonts/ubuntu-sans/ubuntu-sans-italic-variable.woff2"
+						]
+					}
+				],
+				"fontFamily": "'Ubuntu Sans', Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif",
+				"name": "Ubuntu Sans",
+				"slug": "ubuntu-sans"
+			},
+			{
+				"fontFace": [
+					{
+						"fontDisplay": "swap",
+						"fontFamily": "Playfair Display",
+						"fontStyle": "normal",
+						"fontWeight": "400 900",
+						"src": [
+							"file:./assets/fonts/playfair-display/playfair-display-variable.woff2"
+						]
+					},
+					{
+						"fontDisplay": "swap",
+						"fontFamily": "Playfair Display",
+						"fontStyle": "italic",
+						"fontWeight": "400 900",
+						"src": [
+							"file:./assets/fonts/playfair-display/playfair-display-italic-variable.woff2"
+						]
+					}
+				],
+				"fontFamily": "'Playfair Display', Superclarendon, 'Bookman Old Style', 'URW Bookman', 'URW Bookman L', 'Georgia Pro', Georgia, serif",
+				"name": "Playfair Display",
+				"slug": "playfair-display"
+			},
+			{
+				"fontFace": [
+					{
+						"fontDisplay": "swap",
 						"fontFamily": "Roboto Serif",
 						"fontStretch": "normal",
 						"fontStyle": "normal",
 						"fontWeight": "100 900",
-						"fontDisplay": "swap",
 						"src": [
 							"file:./assets/fonts/roboto-serif/roboto-serif-variable.woff2"
 						]
 					},
 					{
+						"fontDisplay": "swap",
 						"fontFamily": "Roboto Serif",
 						"fontStretch": "normal",
 						"fontStyle": "italic",
 						"fontWeight": "100 900",
-						"fontDisplay": "swap",
 						"src": [
 							"file:./assets/fonts/roboto-serif/roboto-serif-italic-variable.woff2"
 						]
@@ -88,11 +88,11 @@
 			{
 				"fontFace": [
 					{
+						"fontDisplay": "swap",
 						"fontFamily": "Roboto Flex",
 						"fontStretch": "normal",
 						"fontStyle": "normal",
 						"fontWeight": "100 1000",
-						"fontDisplay": "swap",
 						"src": [
 							"file:./assets/fonts/roboto-flex/roboto-flex-variable.woff2"
 						]
@@ -105,12 +105,12 @@
 			{
 				"fontFace": [
 					{
+						"fontDisplay": "swap",
 						"fontFamily": "Roboto Flex Expanded",
 						"fontStretch": "150%",
 						"fontStyle": "normal",
-						"fontWeight": "100 1000",
-						"fontDisplay": "swap",
 						"fontVariationSettings": "'wdth' 150",
+						"fontWeight": "100 1000",
 						"src": [
 							"file:./assets/fonts/roboto-flex/roboto-flex-variable.woff2"
 						]
@@ -123,12 +123,12 @@
 			{
 				"fontFace": [
 					{
+						"fontDisplay": "swap",
 						"fontFamily": "Roboto Flex Condensed",
 						"fontStretch": "25%",
 						"fontStyle": "normal",
-						"fontWeight": "100 1000",
-						"fontDisplay": "swap",
 						"fontVariationSettings": "'wdth' 25",
+						"fontWeight": "100 1000",
 						"src": [
 							"file:./assets/fonts/roboto-flex/roboto-flex-variable.woff2"
 						]
@@ -141,21 +141,21 @@
 			{
 				"fontFace": [
 					{
+						"fontDisplay": "swap",
 						"fontFamily": "Nunito",
 						"fontStretch": "normal",
 						"fontStyle": "normal",
 						"fontWeight": "200 900",
-						"fontDisplay": "swap",
 						"src": [
 							"file:./assets/fonts/nunito/nunito-variable.woff2"
 						]
 					},
 					{
+						"fontDisplay": "swap",
 						"fontFamily": "Nunito",
 						"fontStretch": "normal",
 						"fontStyle": "italic",
 						"fontWeight": "200 900",
-						"fontDisplay": "swap",
 						"src": [
 							"file:./assets/fonts/nunito/nunito-italic-variable.woff2"
 						]
@@ -165,7 +165,7 @@
 				"name": "Nunito",
 				"slug": "nunito"
 			}
-        ],
+		],
 		"fontSizes": [
 			{
 				"fluid": false,
@@ -210,8 +210,7 @@
 				"slug": "xx-large"
 			}
 		],
-        "textColumns": true,
-        "writingMode": true
-    }
+		"textColumns": true,
+		"writingMode": true
+	}
 }
-
