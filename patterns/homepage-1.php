@@ -110,7 +110,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"is-style-default"} -->
-<p class="is-style-default"><?php esc_html_e( 'Moreover, the WordPress community and theme developers are actively contributing to a growing library of block patterns, making it easier for users to find a pattern that suits their needs. Whether you\'re building a landing page, a photo gallery, or a complex layout, there\'s likely a block pattern ready to use. This democratizes design for non-technical users while offering developers a way to extend WordPress functionality and provide more options to their clients.', 'your-text-domain' ); ?></p>
+<p class="is-style-default"><?php esc_html_e( 'Moreover, the WordPress community and theme developers are actively contributing to a growing library of block patterns, making it easier for users to find a pattern that suits their needs. Whether you\'re building a landing page, a photo gallery, or a complex layout, there\'s likely a block pattern ready to use. This democratizes design for non-technical users while offering developers a way to extend WordPress functionality and provide more options to their clients.', 'bluehost-blueprint' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
