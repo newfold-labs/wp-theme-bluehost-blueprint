@@ -67,8 +67,8 @@
 <!-- /wp:columns -->
 
 <!-- wp:group {"className":"is-style-block-overlap","layout":{"type":"constrained"}} -->
-<div class="wp-block-group is-style-block-overlap"><!-- wp:columns {"className":"","style":{"border":{"radius":"10px"},"shadow":"var:preset|shadow|natural"},"backgroundColor":"base"} -->
-<div class="wp-block-columns has-base-background-color has-background" style="border-radius:10px;box-shadow:var(--wp--preset--shadow--natural)"><!-- wp:column {"verticalAlignment":"center","width":"25%"} -->
+<div class="wp-block-group is-style-block-overlap"><!-- wp:columns {"className":"","style":{"border":{"radius":"10px"},"shadow":"var:preset|shadow|natural","color":{"background":"#ffffff"}}} -->
+<div class="wp-block-columns has-background" style="border-radius:10px;background-color:#ffffff;box-shadow:var(--wp--preset--shadow--natural)"><!-- wp:column {"verticalAlignment":"center","width":"25%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:25%"><!-- wp:image {"sizeSlug":"large","align":"center"} -->
 <figure class="wp-block-image aligncenter size-large"><img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/218.svg' ); ?>" alt=""/></figure>
 <!-- /wp:image --></div>
