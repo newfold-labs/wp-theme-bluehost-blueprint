@@ -18,10 +18,18 @@ form.comment-form {
         font-size: var(--wp--preset--font-size--small);
     }
     textarea {
-        border: 1px solid var(--wp--preset--color--base-midtone);
+        border-radius: 2px;
+        border: 1px solid;
+        border-color: rgba(0,0,0,0.2);
+        line-height: 1.7;
+        padding: 0.3rem 1rem;
     }
     input:not([type="submit"]) {
-        border: 1px solid var(--wp--preset--color--base-midtone);
+        border-radius: 2px;
+        border: 1px solid;
+        border-color: rgba(0,0,0,0.2);
+        line-height: 1.7;
+        padding: 0.3rem 1rem;
     }
 }
 
