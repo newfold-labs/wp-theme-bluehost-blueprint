@@ -11,12 +11,12 @@
 
 ?>
 
-<!-- wp:group {"metadata":{"name":"Hero"},"align":"full","className":"","backgroundColor":"accent-3","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull has-accent-3-background-color has-background"><!-- wp:columns {"verticalAlignment":"center","className":""} -->
+<!-- wp:group {"metadata":{"name":"Hero"},"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"accent-4","textColor":"base","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-base-color has-accent-4-background-color has-text-color has-background has-link-color"><!-- wp:columns {"verticalAlignment":"center","className":""} -->
 <div class="wp-block-columns are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":"","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}}} -->
 <div class="wp-block-column is-vertically-aligned-center" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50)"><!-- wp:group {"className":"","layout":{"type":"flex","orientation":"vertical","verticalAlignment":"center"}} -->
-<div class="wp-block-group"><!-- wp:heading {"textAlign":"left","level":1,"className":"is-style-text-wrap-balance","style":{"layout":{"selfStretch":"fit","flexSize":null},"typography":{"fontSize":"3.4em"},"elements":{"link":{"color":{"text":"var:preset|color|accent-1"}}}},"textColor":"accent-1"} -->
-<h1 class="wp-block-heading has-text-align-left is-style-text-wrap-balance has-accent-1-color has-text-color has-link-color" style="font-size:3.4em"><?php esc_html_e( 'Actors, Cameras and Achievements', 'bluehost-blueprint' ); ?></h1>
+<div class="wp-block-group"><!-- wp:heading {"textAlign":"left","level":1,"className":"is-style-text-wrap-balance","style":{"layout":{"selfStretch":"fit","flexSize":null},"typography":{"fontSize":"3.4em"},"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"textColor":"base"} -->
+<h1 class="wp-block-heading has-text-align-left is-style-text-wrap-balance has-base-color has-text-color has-link-color" style="font-size:3.4em"><?php esc_html_e( 'Actors, Cameras and Achievements', 'bluehost-blueprint' ); ?></h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"left","className":""} -->
