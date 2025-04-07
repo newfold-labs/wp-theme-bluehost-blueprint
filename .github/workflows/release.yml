@@ -12,8 +12,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
-        with:
-          path: bluehost-blueprint
 
       - name: Setup Node.js
         uses: actions/setup-node@cdca7365b2dadb8aad0a33bc7601856ffabcc48e # v4.3.0
@@ -50,7 +48,7 @@ jobs:
         run: |
           npm install @wordpress/env --save-dev
           npx wp-env start
-          npx wp-env run cli wp theme activate bluehost-blueprint
+          npx wp-env run cli wp theme activate wp-theme-bluehost-blueprint
 
       - name: Check if site is up (status code 200)
         run: |
