@@ -69,3 +69,18 @@ npm install
 ```
 
 Now you’re ready to manage theme.json more efficiently! 🚀
+
+## Build theme .zip package
+
+This theme provides a command to generate a .zip archive for distribution, which excludes development and system files that are not needed for the theme to function properly. This is useful for preparing the theme for release on WordPress.org or other platforms.
+
+### 🚀 Install Dependencies (First Time Only)
+If you haven’t already, install the required Node.js dependencies:
+
+```sh
+npm install
+```
+
+### Available CLI commands
+
+- `npm run bundle` : Generates a .zip archive for distribution, excluding development and system files. Run this command from the bluehost-blueprint root directory to prepare the theme for release on WordPress.org or other platforms.
