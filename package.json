@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/newfold-labs/wp-theme-nextgen#readme",
   "devDependencies": {
+    "@wordpress/env": "^10.21.0",
     "dir-archiver": "^2.1.0"
   }
 }
