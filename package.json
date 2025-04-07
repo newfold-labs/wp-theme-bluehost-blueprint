@@ -5,7 +5,7 @@
   "main": "merge-theme.js",
   "scripts": {
     "merge-theme": "node merge-theme.js",
-    "bundle": "dir-archiver --src . --dest ../bluehost-blueprint.zip --exclude .DS_Store .stylelintrc.json .eslintrc .git .gitattributes .github .gitignore readme.md composer.json composer.lock node_modules vendor package-lock.json package.json .travis.yml phpcs.xml.dist sass yarn.lock .sass-cache gruntfile.js tests theme-config merge-theme.js"
+    "bundle": "dir-archiver --src . --dest ../bluehost-blueprint.zip --exclude .DS_Store .stylelintrc.json .eslintrc .git .gitattributes .github .gitignore readme.md composer.json composer.lock node_modules vendor package-lock.json package.json .travis.yml phpcs.xml.dist sass yarn.lock .sass-cache gruntfile.js tests theme-config merge-theme.js phpcs.xml"
   },
   "repository": {
     "type": "git",

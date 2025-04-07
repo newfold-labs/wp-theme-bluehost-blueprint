@@ -1,4 +1,4 @@
-<?php
+<?php // phpcs:ignore WordPress.Files.FileName
 /**
  * Title: taxonomy-product_cat
  * Slug: bluehost-blueprint/taxonomy-product_cat

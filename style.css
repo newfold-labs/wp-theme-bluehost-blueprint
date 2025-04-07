@@ -11,7 +11,7 @@ Version: 0.1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: bluehost-blueprint
-Tags: 
+Tags: blog, e-commerce, food-and-drink, holiday, news, photograpy, portfolio, one-column, block-styles, full-site-editing, wide-blocks
  */
 
 
@@ -20,28 +20,28 @@ h1, h2, h3, h4, h5, h6, blockquote, caption, figcaption, p {
 }
 
 select {
-    min-height: 2.25em;
+	min-height: 2.25em;
 }
 
 textarea, select, input[type=color], input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=reset], input[type=search], input[type=submit], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], .select2-container .select2-selection--single {
-    border-radius: 2px;
-    border: 1px solid;
-    border-color: rgba(0,0,0,0.2);
-    line-height: 1.7;
-    padding: 0.3rem 1rem;
+	border-radius: 2px;
+	border: 1px solid;
+	border-color: rgba(0,0,0,0.2);
+	line-height: 1.7;
+	padding: 0.3rem 1rem;
 	display: block;
 }
 
 input[type="submit"] {
 	background-color: var(--wp--preset--color--accent-1);
-    border-width: 0;
+	border-width: 0;
 	border-radius: 2px;
-    color: var(--wp--preset--color--base);
-    font-family: inherit;
-    font-size: inherit;
-    line-height: inherit;
-    padding: calc(0.667em + 2px) calc(1.333em + 2px);
-    text-decoration: none;
+	color: var(--wp--preset--color--base);
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+	padding: calc(0.667em + 2px) calc(1.333em + 2px);
+	text-decoration: none;
 	cursor: pointer;
 }
 
@@ -67,5 +67,5 @@ div[class*="wp-block-"] .wp-block-image figcaption a {
 }
 
 .woocommerce-account .wp-block-post-title, .woocommerce-account main .woocommerce, .woocommerce-cart .wp-block-post-title, .woocommerce-cart main .woocommerce, .woocommerce-checkout .wp-block-post-title, .woocommerce-checkout main .woocommerce {
-    max-width: var(--wp--style--global--content-size);
+	max-width: var(--wp--style--global--content-size);
 }

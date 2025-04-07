@@ -1,48 +1,48 @@
 .wp-block-comment-author-name a,
 .wp-block-comment-date a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 .wp-block-comment-template > li:not(:first-child),
 .wp-block-comment-template > li li {
-    border-top: 1px solid var(--wp--preset--color--base-midtone);
-    padding-top: 2rem;
+	border-top: 1px solid var(--wp--preset--color--base-midtone);
+	padding-top: 2rem;
 }
 
 .wp-block-comment-template ol {
-    padding-inline-start: 64px;
+	padding-inline-start: 64px;
 }
 
 form.comment-form {
-    label {
-        font-size: var(--wp--preset--font-size--small);
-    }
-    textarea {
-        border-radius: 2px;
-        border: 1px solid;
-        border-color: rgba(0,0,0,0.2);
-        line-height: 1.7;
-        padding: 0.3rem 1rem;
-    }
-    input:not([type="submit"]) {
-        border-radius: 2px;
-        border: 1px solid;
-        border-color: rgba(0,0,0,0.2);
-        line-height: 1.7;
-        padding: 0.3rem 1rem;
-    }
+	label {
+		font-size: var(--wp--preset--font-size--small);
+	}
+	textarea {
+		border-radius: 2px;
+		border: 1px solid;
+		border-color: rgba(0,0,0,0.2);
+		line-height: 1.7;
+		padding: 0.3rem 1rem;
+	}
+	input:not([type="submit"]) {
+		border-radius: 2px;
+		border: 1px solid;
+		border-color: rgba(0,0,0,0.2);
+		line-height: 1.7;
+		padding: 0.3rem 1rem;
+	}
 }
 
 .wp-block-post-comments-form .comment-form-cookies-consent #wp-comment-cookies-consent + label {
-    margin-top: .35em;
+	margin-top: .35em;
 }
 
 @media (max-width: 680px) {
-    .wp-block-comment-template ol {
-        padding-inline-start: 0;
-    }
+	.wp-block-comment-template ol {
+		padding-inline-start: 0;
+	}
 
-    .wp-block-comment-template > li > ol {
-        padding-inline-start: 64px;
-    }
+	.wp-block-comment-template > li > ol {
+		padding-inline-start: 64px;
+	}
 }
