@@ -39,11 +39,6 @@ jobs:
       - name: Run bundle script
         run: npm run bundle
 
-      - name: Rename zip with version
-        run: |
-          TAG=${GITHUB_REF#refs/tags/}
-          mv ../bluehost-blueprint.zip ../bluehost-blueprint-${TAG}.zip
-
       - name: Setup wp-env and test theme
         run: |
           npm install @wordpress/env --save-dev
@@ -66,6 +61,6 @@ jobs:
           name: "Pre-release ${{ github.ref_name }}"
           tag_name: ${{ github.ref_name }}
           prerelease: true
-          files: ../bluehost-blueprint-${{ github.ref_name }}.zip
+          files: ../bluehost-blueprint.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
