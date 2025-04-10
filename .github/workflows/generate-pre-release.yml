@@ -31,27 +31,39 @@ jobs:
         working-directory: bluehost-blueprint
         run: npm install
 
-      - name: Lint JavaScript
-        working-directory: bluehost-blueprint
-        run: npm run lint --if-present
+      - name: Setup PHP
+        uses: shivammathur/setup-php@9e72090525849c5e82e596468b86eb55e9cc5401 # v2.32.0
+        with:
+          php-version: '8.1'
+          extensions: mbstring, xml
+          tools: composer, phpcs
 
-      - name: Lint PHP
-        working-directory: bluehost-blueprint
-        run: composer lint || true
-
-      - name: Start wp-env
-        working-directory: bluehost-blueprint
-        run: npx wp-env start
-
-      - name: Check for fatal PHP errors
-        working-directory: bluehost-blueprint
+      - name: Install PHPCS and WordPress Coding Standards
         run: |
-          sleep 10
-          curl -sSf http://localhost:8888 || exit 1
+          composer install
+          phpcs --config-set installed_paths vendor/wp-coding-standards/wpcs
 
-      - name: Bundle theme
-        working-directory: bluehost-blueprint
+      - name: Run PHPCS
+        run: composer lint
+
+      - name: Run bundle script
         run: npm run bundle
+
+      - name: Setup wp-env and test theme
+        run: |
+          npm install @wordpress/env --save-dev
+          npx wp-env start
+          npx wp-env run cli wp theme activate wp-theme-bluehost-blueprint
+
+      - name: Check if site is up (status code 200)
+        run: |
+          http_status=$(curl -s -o /dev/null -w "%{http_code}" http://localhost:8888)
+          if [ "$http_status" -eq 200 ]; then
+            echo "WordPress is up and running with status code 200!"
+          else
+            echo "Error: WordPress returned status code $http_status"
+            exit 1
+          fi
 
       - name: Set up Git
         run: |
