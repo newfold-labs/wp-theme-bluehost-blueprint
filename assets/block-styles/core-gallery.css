@@ -1,0 +1,4 @@
+.blocks-gallery-grid:not(.has-nested-images),
+.wp-block-gallery:not(.has-nested-images) {
+	margin-block-start: var(--wp--style--block-gap);
+}

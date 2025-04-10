@@ -1,0 +1,61 @@
+{
+    "version": 3,
+	"title": "Sapphire Sun - Dark",
+    "settings": {
+        "color": {
+            "palette": [
+                {
+                    "name": "Sapphire Black",
+                    "slug": "base",
+                    "color": "#000000"
+                },
+                {
+                    "name": "Midnight Onyx",
+                    "slug": "base-midtone",
+                    "color": "#121212"
+                },
+                {
+                    "name": "Silver Sheen",
+                    "slug": "contrast-midtone",
+                    "color": "#E4E4E4"
+                },
+                {
+                    "name": "Brilliant White",
+                    "slug": "contrast",
+                    "color": "#FFFFFF"
+                },
+                {
+                    "name": "Pale Sapphire",
+                    "slug": "accent-1",
+                    "color": "#C5D4FF"
+                },
+                {
+                    "name": "Sky Blue",
+                    "slug": "accent-2",
+                    "color": "#99B2E6"
+                },
+                {
+                    "name": "Ocean Blue",
+                    "slug": "accent-3",
+                    "color": "#688DBC"
+                },
+                {
+                    "name": "Golden Sun",
+                    "slug": "accent-4",
+                    "color": "#FFD60A"
+                },
+                {
+                    "name": "Sunny Glow",
+                    "slug": "accent-5",
+                    "color": "#FFE54A"
+                },
+                {
+                    "name": "Dawn Light",
+                    "slug": "accent-6",
+                    "color": "#FFF7D5"
+                }
+            ]
+        }
+    },
+    "styles": {}
+}

@@ -1,0 +1,216 @@
+{
+	"typography": {
+		"defaultFontSizes": false,
+		"dropCap": true,
+		"fontFamilies": [
+			{
+				"fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
+				"name": "System Font",
+				"slug": "system-font"
+			},
+			{
+				"fontFace": [
+					{
+						"fontDisplay": "swap",
+						"fontFamily": "Ubuntu Sans",
+						"fontStyle": "normal",
+						"fontWeight": "100 800",
+						"src": [
+							"file:./assets/fonts/ubuntu-sans/ubuntu-sans-variable.woff2"
+						]
+					},
+					{
+						"fontDisplay": "swap",
+						"fontFamily": "Ubuntu Sans",
+						"fontStyle": "italic",
+						"fontWeight": "100 800",
+						"src": [
+							"file:./assets/fonts/ubuntu-sans/ubuntu-sans-italic-variable.woff2"
+						]
+					}
+				],
+				"fontFamily": "'Ubuntu Sans', Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif",
+				"name": "Ubuntu Sans",
+				"slug": "ubuntu-sans"
+			},
+			{
+				"fontFace": [
+					{
+						"fontDisplay": "swap",
+						"fontFamily": "Playfair Display",
+						"fontStyle": "normal",
+						"fontWeight": "400 900",
+						"src": [
+							"file:./assets/fonts/playfair-display/playfair-display-variable.woff2"
+						]
+					},
+					{
+						"fontDisplay": "swap",
+						"fontFamily": "Playfair Display",
+						"fontStyle": "italic",
+						"fontWeight": "400 900",
+						"src": [
+							"file:./assets/fonts/playfair-display/playfair-display-italic-variable.woff2"
+						]
+					}
+				],
+				"fontFamily": "'Playfair Display', Superclarendon, 'Bookman Old Style', 'URW Bookman', 'URW Bookman L', 'Georgia Pro', Georgia, serif",
+				"name": "Playfair Display",
+				"slug": "playfair-display"
+			},
+			{
+				"fontFace": [
+					{
+						"fontDisplay": "swap",
+						"fontFamily": "Roboto Serif",
+						"fontStretch": "normal",
+						"fontStyle": "normal",
+						"fontWeight": "100 900",
+						"src": [
+							"file:./assets/fonts/roboto-serif/roboto-serif-variable.woff2"
+						]
+					},
+					{
+						"fontDisplay": "swap",
+						"fontFamily": "Roboto Serif",
+						"fontStretch": "normal",
+						"fontStyle": "italic",
+						"fontWeight": "100 900",
+						"src": [
+							"file:./assets/fonts/roboto-serif/roboto-serif-italic-variable.woff2"
+						]
+					}
+				],
+				"fontFamily": "'Roboto Serif', serif",
+				"name": "Roboto Serif",
+				"slug": "roboto-serif"
+			},
+			{
+				"fontFace": [
+					{
+						"fontDisplay": "swap",
+						"fontFamily": "Roboto Flex",
+						"fontStretch": "normal",
+						"fontStyle": "normal",
+						"fontWeight": "100 1000",
+						"src": [
+							"file:./assets/fonts/roboto-flex/roboto-flex-variable.woff2"
+						]
+					}
+				],
+				"fontFamily": "'Roboto Flex', system-ui, sans-serif",
+				"name": "Roboto Flex",
+				"slug": "roboto-flex"
+			},
+			{
+				"fontFace": [
+					{
+						"fontDisplay": "swap",
+						"fontFamily": "Roboto Flex Expanded",
+						"fontStretch": "150%",
+						"fontStyle": "normal",
+						"fontVariationSettings": "'wdth' 150",
+						"fontWeight": "100 1000",
+						"src": [
+							"file:./assets/fonts/roboto-flex/roboto-flex-variable.woff2"
+						]
+					}
+				],
+				"fontFamily": "'Roboto Flex Expanded', system-ui, sans-serif",
+				"name": "Roboto Flex Expanded",
+				"slug": "roboto-flex-expanded"
+			},
+			{
+				"fontFace": [
+					{
+						"fontDisplay": "swap",
+						"fontFamily": "Roboto Flex Condensed",
+						"fontStretch": "25%",
+						"fontStyle": "normal",
+						"fontVariationSettings": "'wdth' 25",
+						"fontWeight": "100 1000",
+						"src": [
+							"file:./assets/fonts/roboto-flex/roboto-flex-variable.woff2"
+						]
+					}
+				],
+				"fontFamily": "'Roboto Flex Condensed', system-ui, sans-serif",
+				"name": "Roboto Flex Condensed",
+				"slug": "roboto-flex-condensed"
+			},
+			{
+				"fontFace": [
+					{
+						"fontDisplay": "swap",
+						"fontFamily": "Nunito",
+						"fontStretch": "normal",
+						"fontStyle": "normal",
+						"fontWeight": "200 900",
+						"src": [
+							"file:./assets/fonts/nunito/nunito-variable.woff2"
+						]
+					},
+					{
+						"fontDisplay": "swap",
+						"fontFamily": "Nunito",
+						"fontStretch": "normal",
+						"fontStyle": "italic",
+						"fontWeight": "200 900",
+						"src": [
+							"file:./assets/fonts/nunito/nunito-italic-variable.woff2"
+						]
+					}
+				],
+				"fontFamily": "Nunito, ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manjari, 'Arial Rounded MT', 'Arial Rounded MT Bold', Calibri, source-sans-pro, sans-serif",
+				"name": "Nunito",
+				"slug": "nunito"
+			}
+		],
+		"fontSizes": [
+			{
+				"fluid": false,
+				"name": "Small",
+				"size": "0.813rem",
+				"slug": "small"
+			},
+			{
+				"fluid": {
+					"max": "1em",
+					"min": "0.875rem"
+				},
+				"name": "Medium",
+				"size": "1em",
+				"slug": "medium"
+			},
+			{
+				"fluid": {
+					"max": "1.25em",
+					"min": "1.125rem"
+				},
+				"name": "Large",
+				"size": "1.25em",
+				"slug": "large"
+			},
+			{
+				"fluid": {
+					"max": "1.75em",
+					"min": "1.5rem"
+				},
+				"name": "Extra Large",
+				"size": "1.75em",
+				"slug": "x-large"
+			},
+			{
+				"fluid": {
+					"max": "4em",
+					"min": "3.5rem"
+				},
+				"name": "Extra Extra Large",
+				"size": "3.5em",
+				"slug": "xx-large"
+			}
+		],
+		"textColumns": true,
+		"writingMode": true
+	}
+}

@@ -1,0 +1,61 @@
+{
+    "version": 3,
+	"title": "Autumn",
+    "settings": {
+        "color": {
+            "palette": [
+				{
+					"color": "#ffffff",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "#000000",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "#283618",
+					"name": "Forest Canopy",
+					"slug": "accent-1"
+				},
+				{
+					"color": "#606C38",
+					"name": "Olive Grove",
+					"slug": "accent-2"
+				},
+				{
+					"color": "#B5B08A",
+					"name": "Sandstone Beige",
+					"slug": "accent-3"
+				},
+				{
+					"color": "#823933",
+					"name": "Cranberry Clay",
+					"slug": "accent-4"
+				},
+				{
+					"color": "#BC6C25",
+					"name": "Amber Spice",
+					"slug": "accent-5"
+				},
+				{
+					"color": "#F3EAAE",
+					"name": "Golden Harvest",
+					"slug": "accent-6"
+				},
+				{
+					"color": "#f0f0f0",
+					"name": "Base Midtone",
+					"slug": "base-midtone"
+				},
+				{
+					"color": "#3d3d3d",
+					"name": "Contrast Midtone",
+					"slug": "contrast-midtone"
+				}
+			]
+        }
+    },
+    "styles": {}
+}

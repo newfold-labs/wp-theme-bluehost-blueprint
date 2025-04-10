@@ -1,0 +1,61 @@
+{
+    "version": 3,
+	"title": "Forest Grove - Dark",
+    "settings": {
+        "color": {
+            "palette": [
+                {
+                    "name": "Forest Shadow",
+                    "slug": "base",
+                    "color": "#1A1A1A"
+                },
+                {
+                    "name": "Charcoal Bark",
+                    "slug": "base-midtone",
+                    "color": "#2A2A2A"
+                },
+                {
+                    "name": "Silver Canopy",
+                    "slug": "contrast-midtone",
+                    "color": "#E3E3E3"
+                },
+                {
+                    "name": "Morning Light",
+                    "slug": "contrast",
+                    "color": "#F5F5F5"
+                },
+                {
+                    "name": "Berry Bloom",
+                    "slug": "accent-1",
+                    "color": "#4A6B4A"
+                },
+                {
+                    "name": "Maple Glow",
+                    "slug": "accent-2",
+                    "color": "#57835A"
+                },
+                {
+                    "name": "Golden Oak",
+                    "slug": "accent-3",
+                    "color": "#81A563"
+                },
+                {
+                    "name": "Twilight Grove",
+                    "slug": "accent-4",
+                    "color": "#B9CF84"
+                },
+                {
+                    "name": "Pine Creek",
+                    "slug": "accent-5",
+                    "color": "#DDE3B8"
+                },
+                {
+                    "name": "Mossy Meadow",
+                    "slug": "accent-6",
+                    "color": "#F4F9C3"
+                }
+            ]
+        }
+    },
+    "styles": {}
+}

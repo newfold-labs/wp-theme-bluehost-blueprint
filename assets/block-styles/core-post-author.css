@@ -1,0 +1,22 @@
+.wp-block-post-author {
+	align-items: center;
+}
+
+.wp-block-post-author__name {
+	margin-bottom: 0;
+	font-weight: 600;
+}
+
+.wp-block-post-author__name a {
+	text-decoration: none;
+}
+
+.wp-block-post-author__avatar {
+	display: inline-flex;
+	align-items: center;
+	margin-right: .8rem;
+}
+
+.wp-block-post-author__avatar img {
+	border-radius: 100px;
+}

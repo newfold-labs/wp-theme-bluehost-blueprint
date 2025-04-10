@@ -1,0 +1,63 @@
+{
+    "version": 3,
+	"title": "Faded Elegance",
+    "settings": {
+        "color": {
+            "palette": [
+                {
+                    "name": "Base",
+                    "slug": "base",
+                    "color": "#ffffff"
+                },
+                {
+                    "name": "Contrast",
+                    "slug": "contrast",
+                    "color": "#000000"
+                },
+                {
+                    "name": "Iron Bark",
+                    "slug": "accent-1",
+                    "color": "#4A5759"
+                },
+                {
+                    "name": "Meadow Sage",
+                    "slug": "accent-2",
+                    "color": "#97B398"
+                },
+                {
+                    "name": "Alabaster Drift",
+                    "slug": "accent-3",
+                    "color": "#DEDBD2"
+                },
+                {
+                    "name": "Plum Dust",
+                    "slug": "accent-4",
+                    "color": "#746D75"
+                },
+                {
+                    "name": "Blush Petal",
+                    "slug": "accent-5",
+                    "color": "#D697A0"
+                },
+                {
+                    "name": "Peach Haze",
+                    "slug": "accent-6",
+                    "color": "#EEDAD0"
+                },
+                {
+                    "name": "Base Midtone",
+                    "slug": "base-midtone",
+                    "color": "#f4f4f4"
+                },
+                {
+                    "name": "Contrast Midtone",
+                    "slug": "contrast-midtone",
+                    "color": "#323232"
+                }
+            ]
+        }
+    },
+    "styles": {
+        
+    }
+}

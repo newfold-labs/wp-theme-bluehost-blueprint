@@ -1,0 +1,5 @@
+.wp-block-table {
+	overflow-x: auto;
+	border-collapse: collapse;
+	width: 100%;
+}

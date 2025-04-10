@@ -1,23 +1,71 @@
 /*
-Theme Name: NextGen theme
-Theme URI: https://github.com/newfold-labs/wp-theme-nextgen
-Author: Newfold Digital
-Author URI: https://newfold.com
-Description: A basic Block Theme created by Newfold Digital
+Theme Name: Bluehost Blueprint
+Theme URI: https://github.com/newfold-labs/bluehost-blueprint/
+Author: Bluehost
+Author URI: https://bluehost.com
+Description: A basic Block Theme created by Bluehost
 Requires at least: 6.6
-Tested up to: 6.6
-Requires PHP: 5.7
-Version: 0.0.1
+Tested up to: 6.7
+Requires PHP: 8.0
+Version: 0.1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: nextgen-theme
-Tags: 
-*/
-
-/*
- * Progressive enhancement to reduce widows and orphans
- * https://github.com/WordPress/gutenberg/issues/55190
+Text Domain: bluehost-blueprint
+Tags: blog, e-commerce, portfolio, one-column, block-styles, full-site-editing, wide-blocks
  */
+
+
 h1, h2, h3, h4, h5, h6, blockquote, caption, figcaption, p {
 	text-wrap: pretty;
+}
+
+select {
+	min-height: 2.25em;
+}
+
+textarea, select, input[type=color], input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=reset], input[type=search], input[type=submit], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], .select2-container .select2-selection--single {
+	border-radius: 2px;
+	border: 1px solid;
+	border-color: rgba(0,0,0,0.2);
+	line-height: 1.7;
+	padding: 0.3rem 1rem;
+	display: block;
+}
+
+input[type="submit"] {
+	background-color: var(--wp--preset--color--accent-1);
+	border-width: 0;
+	border-radius: 2px;
+	color: var(--wp--preset--color--base);
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+	padding: calc(0.667em + 2px) calc(1.333em + 2px);
+	text-decoration: none;
+	cursor: pointer;
+}
+
+[class*="is-style-block-overlap"] + *:not([style*="margin-top"]) {
+	margin-top: 0;
+}
+
+[class*="is-style-text-wrap-balance"],
+[class*="is-style-text-wrap-balance"] p {
+	text-wrap-style: balance;
+}
+
+div[class*="wp-block-"] figcaption {
+	color: var(--wp--preset--color--contrast-midtone);
+	font-size: var(--wp--preset--font-size--small);
+	margin-bottom: 0;
+	margin-top: 8px;
+	text-align: center;
+}
+
+div[class*="wp-block-"] .wp-block-image figcaption a {
+	width: auto;
+}
+
+.woocommerce-account .wp-block-post-title, .woocommerce-account main .woocommerce, .woocommerce-cart .wp-block-post-title, .woocommerce-cart main .woocommerce, .woocommerce-checkout .wp-block-post-title, .woocommerce-checkout main .woocommerce {
+	max-width: var(--wp--style--global--content-size);
 }

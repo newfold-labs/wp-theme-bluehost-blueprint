@@ -1,0 +1,61 @@
+{
+    "version": 3,
+	"title": "Vivid Energy",
+    "settings": {
+        "color": {
+            "palette": [
+                {
+                    "name": "Base",
+                    "slug": "base",
+                    "color": "#ffffff"
+                },
+                {
+                    "name": "Contrast",
+                    "slug": "contrast",
+                    "color": "#000000"
+                },
+                {
+                    "name": "Crimson",
+                    "slug": "accent-1",
+                    "color": "#D7263D"
+                },
+                {
+                    "name": "Giants Orange",
+                    "slug": "accent-2",
+                    "color": "#F46036"
+                },
+                {
+                    "name": "Xanthous",
+                    "slug": "accent-3",
+                    "color": "#F4B734"
+                },
+                {
+                    "name": "Space Cadet",
+                    "slug": "accent-4",
+                    "color": "#2E294E"
+                },
+                {
+                    "name": "Pine Green",
+                    "slug": "accent-5",
+                    "color": "#147166"
+                },
+                {
+                    "name": "Mindaro",
+                    "slug": "accent-6",
+                    "color": "#C5D86D"
+                },
+                {
+                    "name": "Base Midtone",
+                    "slug": "base-midtone",
+                    "color": "#f4f4f4"
+                },
+                {
+                    "name": "Contrast Midtone",
+                    "slug": "contrast-midtone",
+                    "color": "#323232"
+                }
+            ]
+        }
+    },
+    "styles": {}
+}

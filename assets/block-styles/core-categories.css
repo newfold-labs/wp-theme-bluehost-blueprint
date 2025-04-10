@@ -1,0 +1,7 @@
+.wp-block-categories-dropdown {
+	& > label {
+		display: block;
+		font-weight: bold;
+		margin-bottom: 12px;
+	}
+}

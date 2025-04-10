@@ -1,0 +1,5 @@
+@media (max-width: 781px) {
+	.wp-block-column.is-style-mobile-first-element {
+		order: -1;
+	}
+}

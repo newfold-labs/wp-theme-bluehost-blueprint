@@ -1,0 +1,24 @@
+{
+  "name": "bluehost-blueprint",
+  "version": "1.0.0",
+  "description": "A starter block theme from Bluehost",
+  "main": "merge-theme.js",
+  "scripts": {
+    "merge-theme": "node merge-theme.js",
+    "bundle": "dir-archiver --src . --dest ../bluehost-blueprint.zip --exclude .DS_Store .stylelintrc.json .eslintrc .git .gitattributes .github .gitignore readme.md composer.json composer.lock node_modules vendor package-lock.json package.json .travis.yml phpcs.xml.dist sass yarn.lock .sass-cache gruntfile.js tests theme-config merge-theme.js phpcs.xml .wp-env.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/newfold-labs/wp-theme-nextgen.git"
+  },
+  "author": "Bluehost",
+  "license": "GPL-2.0-or-later",
+  "bugs": {
+    "url": "https://github.com/newfold-labs/wp-theme-nextgen/issues"
+  },
+  "homepage": "https://github.com/newfold-labs/wp-theme-nextgen#readme",
+  "devDependencies": {
+    "@wordpress/env": "^10.21.0",
+    "dir-archiver": "^2.1.0"
+  }
+}
