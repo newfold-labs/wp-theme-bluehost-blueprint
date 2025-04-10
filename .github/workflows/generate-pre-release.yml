@@ -1,0 +1,79 @@
+name: Generate Pre-release
+
+on:
+  workflow_dispatch:
+    inputs:
+      release_name:
+        description: 'Release name (e.g., 1.2.0-beta)'
+        required: true
+      base_branch:
+        description: 'Branch to release from'
+        required: true
+        default: 'main'
+
+jobs:
+  pre-release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.inputs.base_branch }}
+          path: bluehost-blueprint
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install NPM dependencies
+        working-directory: bluehost-blueprint
+        run: npm install
+
+      - name: Lint JavaScript
+        working-directory: bluehost-blueprint
+        run: npm run lint --if-present
+
+      - name: Lint PHP
+        working-directory: bluehost-blueprint
+        run: composer lint || true
+
+      - name: Start wp-env
+        working-directory: bluehost-blueprint
+        run: npx wp-env start
+
+      - name: Check for fatal PHP errors
+        working-directory: bluehost-blueprint
+        run: |
+          sleep 10
+          curl -sSf http://localhost:8888 || exit 1
+
+      - name: Bundle theme
+        working-directory: bluehost-blueprint
+        run: npm run bundle
+
+      - name: Set up Git
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+
+      - name: Create Git Tag
+        id: create_tag
+        working-directory: bluehost-blueprint
+        run: |
+          TAG_NAME="v${{ github.event.inputs.release_name }}"
+          git tag -a "$TAG_NAME" -m "Pre-release $TAG_NAME"
+          git push origin "$TAG_NAME"
+          echo "tag=$TAG_NAME" >> $GITHUB_OUTPUT
+
+      - name: Create Pre-release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ steps.create_tag.outputs.tag }}
+          name: ${{ github.event.inputs.release_name }}
+          prerelease: true
+          files: |
+            bluehost-blueprint/bluehost-blueprint.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
