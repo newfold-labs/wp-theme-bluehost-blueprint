@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/newfold-labs/wp-theme-nextgen.git"
+    "url": "git+https://github.com/newfold-labs/wp-theme-bluehost-blueprint.git"
   },
   "author": "Bluehost",
   "license": "GPL-2.0-or-later",
   "bugs": {
-    "url": "https://github.com/newfold-labs/wp-theme-nextgen/issues"
+    "url": "https://github.com/newfold-labs/wp-theme-bluehost-blueprint/issues"
   },
-  "homepage": "https://github.com/newfold-labs/wp-theme-nextgen#readme",
+  "homepage": "https://github.com/newfold-labs/wp-theme-bluehost-blueprint#readme",
   "devDependencies": {
     "@wordpress/env": "^10.21.0",
     "dir-archiver": "^2.1.0",
