@@ -50,7 +50,7 @@ class Assets {
 		 */
 		wp_enqueue_style(
 			'bluehost-blueprint-style',
-			get_parent_theme_file_uri( './assets/editor-styles/editor-style.css' ),
+			get_parent_theme_file_uri( 'style.css' ),
 			array(),
 			$theme_version
 		);
@@ -62,7 +62,7 @@ class Assets {
 		 */
 		wp_enqueue_style(
 			'bluehost-blueprint-editor-style',
-			get_parent_theme_file_uri( 'style.css' ),
+			get_parent_theme_file_uri( './assets/editor-styles/editor-style.css' ),
 			array(),
 			$theme_version
 		);
