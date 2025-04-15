@@ -1,0 +1,36 @@
+# Node/npm
+node_modules
+package.json
+package-lock.json
+vendor
+
+# Build tools
+gulpfile.js
+webpack.config.js
+
+# Config
+.git
+.gitignore
+.editorconfig
+.eslintrc
+.stylelintrc.json
+.distignore
+.DS_Store
+.github
+.wp-env.json
+
+# Dev files
+README.md
+composer.json
+composer.lock
+tests
+phpcs.xml
+theme-config
+*.map
+*.scss
+*.sass
+*.zip
+
+# Custom build script
+merge-theme.js
+zip-theme.js
