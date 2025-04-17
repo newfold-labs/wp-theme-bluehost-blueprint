@@ -53,7 +53,7 @@ function addDirectory( dir ) {
 		if ( stat.isDirectory() ) {
 			addDirectory( fullPath );
 		} else {
-			archive.file( fullPath, { name: relPath } );
+			archive.file( fullPath, { name: path.join( "bluehost-blueprint", relPath ) } );
 		}
 	} );
 }
