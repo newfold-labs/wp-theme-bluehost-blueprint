@@ -15,6 +15,10 @@ Tags: blog, e-commerce, portfolio, one-column, block-styles, full-site-editing, 
  */
 
 
+:root {
+	--wp--preset--font-size--huge: clamp(6rem, 10vw, 10rem);
+}
+
 h1, h2, h3, h4, h5, h6, blockquote, caption, figcaption, p {
 	text-wrap: pretty;
 }
