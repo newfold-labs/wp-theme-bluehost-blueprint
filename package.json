@@ -6,6 +6,8 @@
   "scripts": {
     "start": "npm-watch merge-theme",
     "merge-theme": "node merge-theme.js",
+    "lint-css": "stylelint \"assets/**/*.css\"",
+    "lint-css:fix": "stylelint \"assets/**/*.css\" --fix",
     "bundle": "node zip-theme.js"
   },
   "repository": {
@@ -21,7 +23,9 @@
   "devDependencies": {
     "@wordpress/env": "^10.21.0",
     "dir-archiver": "^2.1.0",
-    "npm-watch": "^0.13.0"
+    "npm-watch": "^0.13.0",
+    "stylelint": "^16.18.0",
+    "stylelint-config-recommended": "^16.0.0"
   },
   "watch": {
     "merge-theme": {
