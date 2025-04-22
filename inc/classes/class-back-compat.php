@@ -47,9 +47,18 @@ class Back_Compat {
 		 * @since 1.0.0
 		 */
 		if ( get_option( 'theme_mods_yith-wonder' ) ) {
+			$suffix = ( wp_get_environment_type() === 'production' || WP_DEBUG || SCRIPT_DEBUG ) ? '.min' : '';
+			$path   = "assets/back-compat/yith-wonder{$suffix}.css";
+			$file   = get_parent_theme_file_path( $path );
+			$uri    = get_parent_theme_file_uri( $path );
+
+			if ( ! file_exists( $file ) ) {
+				$uri = get_parent_theme_file_uri( 'assets/back-compat/yith-wonder.css' );
+			}
+
 			wp_enqueue_style(
 				'bluehost-blueprint-legacy-yith-wonder',
-				get_parent_theme_file_uri( './assets/back-compat/yith-wonder.css' ),
+				$uri,
 				array(),
 				$theme_version
 			);
@@ -63,7 +72,15 @@ class Back_Compat {
 	 */
 	public static function enqueue_editor_style() {
 		if ( get_option( 'theme_mods_yith-wonder' ) ) {
-			add_editor_style( './assets/back-compat/yith-wonder.css' );
+			$suffix = ( wp_get_environment_type() === 'production' || WP_DEBUG || SCRIPT_DEBUG ) ? '.min' : '';
+			$path   = "assets/back-compat/yith-wonder{$suffix}.css";
+			$file   = get_parent_theme_file_path( $path );
+
+			if ( ! file_exists( $file ) ) {
+				$path = 'assets/back-compat/yith-wonder.css';
+			}
+
+			add_editor_style( "./$path" );
 		}
 	}
 }
