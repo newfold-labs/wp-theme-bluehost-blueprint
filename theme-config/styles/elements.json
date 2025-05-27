@@ -26,13 +26,29 @@
 			}
 		},
 		"link": {
+			":active": {
+					"typography": {
+						"textDecoration": "none"
+					}
+				},
+			":focus": {
+				"typography": {
+					"textDecoration": "underline dashed"
+				}
+			},
 			":hover": {
 				"color": {
 					"text": "color-mix( in lab, currentColor, var(--wp--preset--color--accent-1) 70% )"
+				},
+				"typography": {
+					"textDecoration": "underline"
 				}
 			},
 			"color": {
 				"text": "var(--wp--preset--color--contrast)"
+			},
+			"typography": {
+				"textDecoration": "none"
 			}
 		}
 	}
