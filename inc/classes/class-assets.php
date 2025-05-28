@@ -60,7 +60,7 @@ class Assets {
 		$env             = wp_get_environment_type();
 		$is_debug        = defined( 'WP_DEBUG' ) && WP_DEBUG;
 		$is_script_debug = defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG;
-		$use_minified    = ( 'production' === $env || $is_debug || $is_script_debug );
+		$use_minified    = ( 'production' === $env || ! $is_debug || ! $is_script_debug );
 
 		$files = glob( get_template_directory() . '/assets/block-styles/*.css' );
 

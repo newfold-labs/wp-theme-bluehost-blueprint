@@ -1,0 +1,10 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+	"version": 3,
+	"title": "Unscaled background image",
+	"slug": "unscaled-background",
+	"blockTypes": ["core/cover"],
+	"styles": {
+		"css": ""
+	}
+}
