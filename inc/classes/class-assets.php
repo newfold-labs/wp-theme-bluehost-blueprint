@@ -66,7 +66,15 @@ class Assets {
 
 		foreach ( $files as $file ) {
 			$filename   = basename( $file, '.css' );
-			$block_name = str_replace( 'core-', 'core/', $filename );
+			
+			// Handle different block namespaces
+			if ( strpos( $filename, 'core-' ) === 0 ) {
+				$block_name = str_replace( 'core-', 'core/', $filename );
+			} elseif ( strpos( $filename, 'woocommerce-' ) === 0 ) {
+				$block_name = str_replace( 'woocommerce-', 'woocommerce/', $filename );
+			} else {
+				$block_name = $filename;
+			}
 
 			$suffix   = $use_minified ? '.min' : '';
 			$min_path = get_theme_file_path( "assets/block-styles/{$filename}{$suffix}.css" );
