@@ -3,7 +3,7 @@
 	"version": 3,
 	"title": "Creative #1 A",
 	"slug": "creative-1-a",
-	"blockTypes": ["core/image"],
+	"blockTypes": ["core/image", "core/group"],
 	"styles": {
 		"css": ""
 	}

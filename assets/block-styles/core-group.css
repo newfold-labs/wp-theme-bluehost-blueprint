@@ -1,0 +1,82 @@
+/* Image creative style */
+.wp-block-group[class*=is-style-creative] {
+    position: relative;
+    padding-block: var(--wp--preset--spacing--40);
+
+    &[class*=is-style-creative-2] {
+        padding-block: var(--wp--preset--spacing--60);
+    }
+
+    &.is-style-creative-1-a,
+    &.is-style-creative-1-d{
+        padding-inline-end: var(--wp--preset--spacing--40);
+    }
+
+    &.is-style-creative-2-a,
+    &.is-style-creative-2-d {
+        padding-inline-end: var(--wp--preset--spacing--60);
+        padding-inline-start: var(--wp--preset--spacing--20);
+    }
+    
+    &.is-style-creative-1-b,
+    &.is-style-creative-1-c{
+        padding-inline-start: var(--wp--preset--spacing--40);
+    }
+
+
+    &.is-style-creative-2-b,
+    &.is-style-creative-2-c {
+        padding-inline-start: var(--wp--preset--spacing--60);
+        padding-inline-end: var(--wp--preset--spacing--20);
+    }
+    
+}
+
+.wp-block-group[class*=is-style-creative-1]:before {
+    opacity: 1;
+    background-image: radial-gradient(var(--wp--preset--color--accent-2) 2px, transparent 2px);
+    background-size: 16px 16px;
+    content: "";
+    display: block;
+    height: 106px;
+    position: absolute;
+    width: 106px;
+}
+.wp-block-group[class*=is-style-creative-1-a]:before,
+.wp-block-group[class*=is-style-creative-2-a]:before {  
+    bottom: 0;
+    right: 0;
+}
+.wp-block-group[class*=is-style-creative-1-b]:before,
+.wp-block-group[class*=is-style-creative-2-b]:before {
+    bottom: 0;
+    left: 0;
+}
+.wp-block-group[class*=is-style-creative-1-c]:before,
+.wp-block-group[class*=is-style-creative-2-c]:before {
+    top: 0;
+    left: 0;
+}
+.wp-block-group[class*=is-style-creative-1-d]:before,
+.wp-block-group[class*=is-style-creative-2-d]:before {
+    top: 0;
+    right: 0;
+}
+.wp-block-group[class*=is-style-creative-2]:before {
+    opacity: 1;
+    content: '';
+    display: block;
+    height: 114px;
+    position: absolute;
+    width: 360px;
+    max-width: 100%;
+    background-color: var(--wp--preset--color--accent-3);
+    mask-image: url('../images/wave-pattern.svg');
+    -webkit-mask-image: url('../images/wave-pattern.svg');
+    mask-size: 80px 40px;
+    -webkit-mask-size: 80px 40px;
+    mask-repeat: repeat;
+    -webkit-mask-repeat: repeat;
+    z-index: 1;
+    pointer-events: none;
+}
