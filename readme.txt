@@ -1,24 +1,36 @@
 == Bluehost Blueprint ==
 
 Contributors: Bluehost
+Tags: blog, e-commerce, portfolio, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, block-patterns, wide-blocks, full-site-editing, template-editing
 Requires at least: 6.6
-Tested up to: 6.7
-Requires PHP: 5.7
+Tested up to: 6.8
+Requires PHP: 7.0
+Bluehost Blueprint, Copyright 2025 Bluehost
+Bluehost Blueprint is distributed under the terms of the GNU GPL
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
+A new block and full site editing theme by Bluehost.
 
 == Description ==
 
-A basic Block Theme created by Bluehost
+Bluehost Blueprint is a block-based, multi-purpose, WordPress theme. Compose your pages to fit any design you like with the power of Full Site Editing (FSE) and the included wide range of Block Patterns. The pre-built pages will help you populate and transform your website into a wonderful website. Customize colors and font pairings to create your own unique look and feel.
+
+== Installation ==
+
+1. In your admin panel, go to Appearance > Themes and click the Add New button.
+2. Click Upload Theme and Choose File, then select the theme's .zip file. Click Install Now.
+3. Click Activate to use your new theme right away.
+
+== Frequently Asked Questions ==
 
 == Changelog ==
 
 = 1.0.0 =
-* Initial release
+* Initial public release
 
 
-== Copyright ==
+== License ==
 
 Bluehost Blueprint WordPress Theme, (C) 2025 Newfold Digital
 Bluehost Blueprint is distributed under the terms of the GNU GPL.
@@ -32,6 +44,8 @@ This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
+
+== This theme bundles the following third-party resources ==
 
 == Images ==
 IRJKLKBWQD.webp - "Hand Sparkler" by Altered Reality is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/?ref=openverse.
