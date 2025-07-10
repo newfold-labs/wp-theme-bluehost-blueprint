@@ -43,26 +43,11 @@ class Assets {
 	public static function enqueue_frontend_assets() {
 		$theme_version = wp_get_theme()->get( 'Version' );
 
-		/**
-		 * Enqueues main stylesheet.
-		 *
-		 * @since 1.0.0
-		 */
+		$style_uri = get_parent_theme_file_uri( 'style.css' );
+
 		wp_enqueue_style(
 			'bluehost-blueprint-style',
-			get_parent_theme_file_uri( './assets/editor-styles/editor-style.css' ),
-			array(),
-			$theme_version
-		);
-
-		/**
-		 * Enqueues editor stylesheet.
-		 *
-		 * @since 1.0.0
-		 */
-		wp_enqueue_style(
-			'bluehost-blueprint-editor-style',
-			get_parent_theme_file_uri( 'style.css' ),
+			$style_uri,
 			array(),
 			$theme_version
 		);
@@ -72,21 +57,41 @@ class Assets {
 	 * Load custom block styles.
 	 */
 	public static function enqueue_custom_block_styles() {
+		$env             = wp_get_environment_type();
+		$is_debug        = defined( 'WP_DEBUG' ) && WP_DEBUG;
+		$is_script_debug = defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG;
+		$use_minified    = ( 'production' === $env || ! $is_debug || ! $is_script_debug );
 
 		$files = glob( get_template_directory() . '/assets/block-styles/*.css' );
 
 		foreach ( $files as $file ) {
-
-			// Get the filename and core block name.
 			$filename   = basename( $file, '.css' );
-			$block_name = str_replace( 'core-', 'core/', $filename );
+			
+			// Handle different block namespaces
+			if ( strpos( $filename, 'core-' ) === 0 ) {
+				$block_name = str_replace( 'core-', 'core/', $filename );
+			} elseif ( strpos( $filename, 'woocommerce-' ) === 0 ) {
+				$block_name = str_replace( 'woocommerce-', 'woocommerce/', $filename );
+			} else {
+				$block_name = $filename;
+			}
+
+			$suffix   = $use_minified ? '.min' : '';
+			$min_path = get_theme_file_path( "assets/block-styles/{$filename}{$suffix}.css" );
+			$min_src  = get_theme_file_uri( "assets/block-styles/{$filename}{$suffix}.css" );
+
+			// Fallback to non-minified version if .min.css doesn't exist.
+			if ( ! file_exists( $min_path ) ) {
+				$min_path = get_theme_file_path( "assets/block-styles/{$filename}.css" );
+				$min_src  = get_theme_file_uri( "assets/block-styles/{$filename}.css" );
+			}
 
 			wp_enqueue_block_style(
 				$block_name,
 				array(
 					'handle' => "nfd-block-{$filename}",
-					'src'    => get_theme_file_uri( "assets/block-styles/{$filename}.css" ),
-					'path'   => get_theme_file_path( "assets/block-styles/{$filename}.css" ),
+					'src'    => $min_src,
+					'path'   => $min_path,
 				)
 			);
 		}
@@ -100,6 +105,19 @@ class Assets {
 	 * @since 1.0.0
 	 */
 	public static function enqueue_editor_style() {
-		add_editor_style( './assets/editor-styles/editor-style.css' );
+		$env             = wp_get_environment_type();
+		$is_debug        = defined( 'WP_DEBUG' ) && WP_DEBUG;
+		$is_script_debug = defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG;
+		$use_minified    = ( 'production' === $env || $is_debug || $is_script_debug );
+
+		$suffix     = $use_minified ? '.min' : '';
+		$style_file = "assets/editor-styles/editor-style{$suffix}.css";
+
+		// Fallback to unminified if minified file does not exist.
+		if ( ! file_exists( get_theme_file_path( $style_file ) ) ) {
+			$style_file = 'assets/editor-styles/editor-style.css';
+		}
+
+		add_editor_style( "./$style_file" );
 	}
 }

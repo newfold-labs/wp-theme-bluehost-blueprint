@@ -1,0 +1,8 @@
+.wc-block-product-template[class*="columns-"] {
+    margin-inline: -1rem !important;
+    max-width: none;
+
+    li.wc-block-product {
+        margin: 1rem;
+    }
+}

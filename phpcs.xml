@@ -1,8 +1,14 @@
 <?xml version="1.0"?>
 <ruleset name="WordPress Theme">
   <description>PHP CodeSniffer rules for WordPress theme development</description>
-  <rule ref="WordPress" />
+  <rule ref="WordPress"/>
+  <rule ref="WordPress-Core"/>
+  <rule ref="WordPress-Docs"/>
+  <rule ref="WordPress-Extra"/>
   <exclude-pattern>vendor/*</exclude-pattern>
   <exclude-pattern>node_modules/*</exclude-pattern>
+  <exclude-pattern>assets/*</exclude-pattern>
+  <exclude-pattern>styles/*</exclude-pattern>
   <exclude-pattern>merge-theme.js</exclude-pattern>
+  <exclude-pattern>zip-theme.js</exclude-pattern>
 </ruleset>

@@ -1,0 +1,10 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+	"version": 3,
+	"title": "Creative #1 C",
+	"slug": "creative-1-c",
+	"blockTypes": ["core/image", "core/group"],
+	"styles": {
+		"css": ""
+	}
+}

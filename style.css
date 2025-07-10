@@ -7,13 +7,18 @@ Description: Bluehost Blueprint is a block-based, multi-purpose, WordPress theme
 Version: 0.2.0
 Requires at least: 6.6
 Tested up to: 6.8
-Requires PHP: 7.0
+Requires PHP: 8.0
+Version: 0.2.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: bluehost-blueprint
 Tags: blog, e-commerce, portfolio, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, block-patterns, wide-blocks, full-site-editing, template-editing
  */
 
+
+:root {
+	--wp--preset--font-size--huge: clamp(6rem, 10vw, 10rem);
+}
 
 h1, h2, h3, h4, h5, h6, blockquote, caption, figcaption, p {
 	text-wrap: pretty;
