@@ -4,11 +4,10 @@ Theme URI: https://github.com/newfold-labs/bluehost-blueprint/
 Author: Bluehost
 Author URI: https://bluehost.com
 Description: Bluehost Blueprint is a block-based, multi-purpose, WordPress theme. Compose your pages to fit any design you like with the power of Full Site Editing (FSE) and the included wide range of Block Patterns. The pre-built pages will help you populate and transform your website into a wonderful website. Customize colors and font pairings to create your own unique look and feel.
-Version: 0.2.0
+Version: 0.3.0
 Requires at least: 6.6
 Tested up to: 6.8
-Requires PHP: 8.0
-Version: 0.2.0
+Requires PHP: 7.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: bluehost-blueprint
