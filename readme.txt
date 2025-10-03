@@ -27,7 +27,7 @@ Bluehost Blueprint is a block-based, multi-purpose, WordPress theme. Compose you
 == Changelog ==
 
 = 1.0.0 =
-* Initial public release
+- Add sticky footer on frontend views
 
 
 == License ==
