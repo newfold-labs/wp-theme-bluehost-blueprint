@@ -65,9 +65,9 @@ class Assets {
 		$files = glob( get_template_directory() . '/assets/block-styles/*.css' );
 
 		foreach ( $files as $file ) {
-			$filename   = basename( $file, '.css' );
-			
-			// Handle different block namespaces
+			$filename = basename( $file, '.css' );
+
+			// Handle different block namespaces.
 			if ( strpos( $filename, 'core-' ) === 0 ) {
 				$block_name = str_replace( 'core-', 'core/', $filename );
 			} elseif ( strpos( $filename, 'woocommerce-' ) === 0 ) {

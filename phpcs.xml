@@ -11,4 +11,5 @@
   <exclude-pattern>styles/*</exclude-pattern>
   <exclude-pattern>merge-theme.js</exclude-pattern>
   <exclude-pattern>zip-theme.js</exclude-pattern>
+  <exclude-pattern>postcss.config.js</exclude-pattern>
 </ruleset>

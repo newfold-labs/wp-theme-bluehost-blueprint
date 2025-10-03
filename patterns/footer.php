@@ -14,7 +14,7 @@
 <p class="has-text-align-center">
 	<?php
 	/* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element */
-	printf( esc_html__( 'Proudly Powered by %1$sNewfold Digital%2$s', 'bluehost-blueprint' ), '<a href="' . esc_url( 'https://newfold.com' ) . '" rel="nofollow">', '</a>' );
+	printf( esc_html__( 'Proudly Powered by %1$sBluehost%2$s', 'bluehost-blueprint' ), '<a href="' . esc_url( 'https://bluehost.com' ) . '" rel="nofollow">', '</a>' );
 	?>
 </p>
 <!-- /wp:paragraph --></div>
