@@ -5,3 +5,15 @@
 select {
 	min-height: 2.25em;
 }
+
+/* Featured image: natural width in template editor (matches front-end). */
+.wp-block-post-featured-image.bp-post-featured-image--intrinsic {
+	width: fit-content;
+	max-width: 100%;
+}
+
+.wp-block-post-featured-image.bp-post-featured-image--intrinsic img {
+	width: auto !important;
+	max-width: 100%;
+	height: auto;
+}
