@@ -3,7 +3,7 @@
 Contributors: Bluehost
 Tags: blog, e-commerce, portfolio, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, block-patterns, wide-blocks, full-site-editing, template-editing
 Requires at least: 6.6
-Tested up to: 6.8
+Tested up to: 6.9
 Requires PHP: 7.2
 Bluehost Blueprint, Copyright 2025 Bluehost
 Bluehost Blueprint is distributed under the terms of the GNU GPL
@@ -25,6 +25,10 @@ Bluehost Blueprint is a block-based, multi-purpose, WordPress theme. Compose you
 == Frequently Asked Questions ==
 
 == Changelog ==
+
+= 1.0.1 =
+- Fix single.html template
+- Tested with WP 6.9.4
 
 = 1.0.0 =
 - Add sticky footer on frontend views
