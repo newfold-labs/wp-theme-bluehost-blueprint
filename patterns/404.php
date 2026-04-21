@@ -9,8 +9,8 @@
 
 ?>
 
-<!-- wp:group {"align":"full","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull"><!-- wp:group {"align":"full","style":{"dimensions":{"minHeight":""}},"layout":{"type":"constrained"}} -->
+<!-- wp:group {"tagName":"main","align":"full","layout":{"type":"constrained"}} -->
+<main class="wp-block-group alignfull"><!-- wp:group {"align":"full","style":{"dimensions":{"minHeight":""}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull"><!-- wp:columns {"align":"full","style":{"spacing":{"blockGap":{"left":"0"}}}} -->
 <div class="wp-block-columns alignfull"><!-- wp:column {"layout":{"type":"constrained"}} -->
 <div class="wp-block-column"><!-- wp:group {"style":{"dimensions":{"minHeight":"100dvh"},"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80","left":"var:preset|spacing|80","right":"var:preset|spacing|80"}}},"layout":{"type":"flex","orientation":"vertical","verticalAlignment":"center","justifyContent":"left"}} -->
@@ -46,4 +46,4 @@
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
 <!-- /wp:group --></div>
-<!-- /wp:group -->
+<!-- /wp:group --></main>

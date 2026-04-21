@@ -65,7 +65,7 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 <!-- /wp:woocommerce/product-collection-no-results --></div>
-<!-- /wp:woocommerce/product-collection -->
-
-<!-- wp:template-part {"slug":"footer"} /--></main>
+<!-- /wp:woocommerce/product-collection --></main>
 <!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer"} /-->

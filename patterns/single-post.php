@@ -21,8 +21,7 @@
 
 <!-- wp:post-excerpt {"excerptLength":30} /-->
 
-<!-- wp:post-featured-image {"aspectRatio":"auto"} /--></main>
-<!-- /wp:group -->
+<!-- wp:post-featured-image {"aspectRatio":"auto"} /-->
 
 <!-- wp:post-content {"metadata":{"name":"Narrow Content"},"layout":{"type":"constrained","contentSize":"650px","wideSize":"900px"}} /-->
 
@@ -30,6 +29,8 @@
 <div class="wp-block-group">
 <!-- wp:pattern {"slug":"bluehost-blueprint/post-comments"} /-->
 </div>
+<!-- /wp:group -->
+</main>
 <!-- /wp:group -->
 
 <!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->
