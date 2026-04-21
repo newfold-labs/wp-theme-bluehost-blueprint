@@ -26,6 +26,12 @@ Bluehost Blueprint is a block-based, multi-purpose, WordPress theme. Compose you
 
 == Changelog ==
 
+= 1.0.2 =
+- Accessibility: Added a single <main> landmark (via the main group block) on page templates and other layouts that were missing it, so screen readers and keyboard users get a clear primary content region.
+- Default page: page.html now wraps title + content the same way as page-no-title.html, and post-content uses the same constrained layout as the no-title template.
+- Blank template: blank.html wraps post-content in <main> as well.
+- Patterns: Single-post layouts, 404, coming soon, and related patterns were adjusted so primary content sits inside <main>``**; **product tag** taxonomy markup was fixed so the **footer is not inside `.
+
 = 1.0.1 =
 - Fix single.html template
 - Tested with WP 6.9.4
