@@ -14,6 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write # Required to clone the private repo and create/upload GitHub pre-release assets.
+    timeout-minutes: 30
 
     steps:
       - name: Checkout repository

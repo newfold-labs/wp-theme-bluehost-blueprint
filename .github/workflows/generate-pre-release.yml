@@ -20,6 +20,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write # Required to clone the repo, push the release tag, and create/upload pre-release assets.
+    timeout-minutes: 30
 
     steps:
       - name: Checkout Repository
