@@ -13,7 +13,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # Required to clone the private repo and create/upload GitHub pre-release assets.
+      contents: write # Required to create/upload the GitHub pre-release assets (checking out/cloning only requires contents: read).
     timeout-minutes: 30
 
     steps:
