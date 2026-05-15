@@ -11,9 +11,16 @@ on:
         required: true
         default: 'main'
 
+# Disable permissions for all available scopes by default.
+# Any needed permissions should be configured at the job level.
+permissions: {}
+
 jobs:
   pre-release:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # Required to push the release tag and create/upload pre-release assets.
+    timeout-minutes: 30
 
     steps:
       - name: Checkout Repository

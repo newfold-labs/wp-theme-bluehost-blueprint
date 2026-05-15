@@ -5,9 +5,16 @@ on:
     tags:
       - 'v*'
 
+# Disable permissions for all available scopes by default.
+# Any needed permissions should be configured at the job level.
+permissions: {}
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # Required to create/upload the GitHub pre-release assets (checking out/cloning only requires contents: read).
+    timeout-minutes: 30
 
     steps:
       - name: Checkout repository
